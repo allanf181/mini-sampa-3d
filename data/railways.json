@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Metro.Line1",
+    "title": {
+      "en": "Line 1",
+      "pt": "Linha 1"
+    },
+    "stations": [
+      "Metro.Line1.JAB",
+      "Metro.Line1.CON",
+      "Metro.Line1.JUD",
+      "Metro.Line1.SAU",
+      "Metro.Line1.ARV",
+      "Metro.Line1.SCZ",
+      "Metro.Line1.VMN",
+      "Metro.Line1.ANR",
+      "Metro.Line1.PSO",
+      "Metro.Line1.VGO",
+      "Metro.Line1.JQM",
+      "Metro.Line1.LIB",
+      "Metro.Line1.PSE",
+      "Metro.Line1.BTO",
+      "Metro.Line1.LUZ",
+      "Metro.Line1.TRD",
+      "Metro.Line1.PPQ",
+      "Metro.Line1.TTE",
+      "Metro.Line1.CDU",
+      "Metro.Line1.SAN",
+      "Metro.Line1.JPA",
+      "Metro.Line1.PIG",
+      "Metro.Line1.TUC"
+    ],
+    "ascending": "SP.TUC",
+    "altitude": 0,
+    "color": "#1266AF",
+    "carComposition": 6
+  }
+]

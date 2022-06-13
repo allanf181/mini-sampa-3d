@@ -1,0 +1,859 @@
+@import 'mapbox-gl/src/css/mapbox-gl.css';
+
+.mini-tokyo-3d {
+    width: 380px;
+    height: 380px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: none;
+    overflow: hidden;
+}
+.mini-tokyo-3d #map {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.mini-tokyo-3d .loader-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 21px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #eee;
+    opacity: .9;
+    transition: opacity 1s linear;
+    box-sizing: initial;
+}
+.mini-tokyo-3d .ball-pulse > div {
+    background-color: #777;
+}
+.mini-tokyo-3d #loading-error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 21px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    background-color: #eee;
+    opacity: .9;
+    display: none;
+}
+.mini-tokyo-3d .clock-ctrl {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    pointer-events: auto;
+}
+.mini-tokyo-3d #time {
+    font-size: 150%;
+}
+.mini-tokyo-3d .clock-controller {
+    width: 100%;
+    margin-bottom: 10px;
+    display: table;
+    font-size: 150%;
+}
+.mini-tokyo-3d .clock-controller > span {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+.mini-tokyo-3d .clock-controller-separator {
+    width: 10px;
+}
+.mini-tokyo-3d .spin-box {
+    width: 39px;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+}
+.mini-tokyo-3d .spin-box:first-child {
+    width: 52px;
+}
+.mini-tokyo-3d .spin-box > div {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.mini-tokyo-3d .spin-box > div:first-child {
+    border-bottom: solid 1px #777;
+}
+.mini-tokyo-3d .spin-box > div:last-child {
+    border-top: solid 1px #777;
+}
+.mini-tokyo-3d .spin-box button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.mini-tokyo-3d .spin-box .top-button {
+    border-radius: 10px 10px 0 0;
+}
+.mini-tokyo-3d .spin-box .bottom-button {
+    border-radius: 0 0 10px 10px;
+}
+.mini-tokyo-3d .clock-button {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    display: table;
+}
+.mini-tokyo-3d .clock-button > span {
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+.mini-tokyo-3d .clock-button button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.mini-tokyo-3d .speed-controller {
+    width: 100%;
+    margin-top: 4;
+    display: table;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+}
+.mini-tokyo-3d .speed-controller > span {
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+.mini-tokyo-3d .speed-controller > span:first-child {
+    width: 39px;
+    border-right: solid 1px #777;
+}
+.mini-tokyo-3d .speed-controller > span:last-child {
+    width: 39px;
+    border-left: solid 1px #777;
+}
+.mini-tokyo-3d .speed-controller button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.mini-tokyo-3d .speed-controller .left-button {
+    border-radius: 10px 0 0 10px;
+}
+.mini-tokyo-3d .speed-controller .right-button {
+    border-radius: 0 10px 10px 0;
+}
+.mini-tokyo-3d .decrease-icon {
+    display: block;
+    width: 100%;
+    height: 12px;
+    background: no-repeat center/12px svg-load('minus.svg', fill: #fff);
+}
+.mini-tokyo-3d button:disabled .decrease-icon {
+    background-image: svg-load('minus.svg', fill: #7f7f7f);
+}
+.mini-tokyo-3d .clock-ctrl button {
+    font-size: 12px;
+}
+.mini-tokyo-3d .clock-ctrl button:disabled {
+    color: #777;
+    cursor: not-allowed;
+}
+.mini-tokyo-3d .clock-ctrl button:not(:disabled):hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .increase-icon {
+    display: block;
+    width: 100%;
+    height: 12px;
+    background: no-repeat center/12px svg-load('plus.svg', fill: #fff);
+}
+.mini-tokyo-3d button:disabled .increase-icon {
+    background-image: svg-load('plus.svg', fill: #7f7f7f);
+}
+.mini-tokyo-3d #clock-speed {
+    padding: 0 6px;
+}
+.mini-tokyo-3d .share-panel {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transform: translate(-50%, 0);
+}
+.mini-tokyo-3d .share-button {
+    height: 39px;
+    padding: 0 6px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+}
+.mini-tokyo-3d .share-button:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .share-button:before {
+    content: "";
+    display: block;
+    background: no-repeat center/20px 20px svg-load('share-alt.svg', fill: #fff);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.mini-tokyo-3d .notification {
+    position: absolute;
+    z-index: 3;
+    top: 33%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    opacity: 1;
+    font-size: 130%;
+    transform: translate(-50%, -50%);
+    transition: opacity 1s linear;
+}
+.mini-tokyo-3d .panel {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(100% - 20px);
+    max-width: 380px;
+    height: 33%;
+    margin: auto;
+    border-radius: 10px 10px 0 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 130%;
+    color: #fff;
+    transition: height 300ms;
+}
+.mini-tokyo-3d .panel.collapsed {
+    height: 50px;
+}
+.mini-tokyo-3d #panel-header {
+    position: relative;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.mini-tokyo-3d #panel-title {
+    font-weight: bold;
+}
+.mini-tokyo-3d #panel-body {
+    height: calc(100% - 50px);
+    margin-top: 10px;
+    padding: 0 10px;
+    overflow: auto;
+    overscroll-behavior: contain;
+    line-height: 130%;
+}
+.mini-tokyo-3d #panel-content{
+    position: relative;
+    overflow: hidden;
+}
+.mini-tokyo-3d .windows {
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+.mini-tokyo-3d .windows::-webkit-scrollbar {
+    width: 10px;
+}
+.mini-tokyo-3d .windows::-webkit-scrollbar-thumb {
+    background: #ccc;
+    background-clip: content-box;
+    border-radius: 6px;
+    border: solid 2px transparent;
+}
+.mini-tokyo-3d .train-panel.collapsed {
+    height: 68px;
+}
+.mini-tokyo-3d .train-panel #panel-header {
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.mini-tokyo-3d .train-panel #panel-body {
+    height: calc(100% - 68px);
+}
+.mini-tokyo-3d #railway-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 100%;
+}
+.mini-tokyo-3d #train-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: calc(100% + 20px);
+    margin: -10px;
+}
+.mini-tokyo-3d .station-row {
+    display: table;
+    width: 100%;
+    margin: 5px 0;
+}
+.mini-tokyo-3d .station-row:last-child {
+    margin-bottom: 10px;
+}
+.mini-tokyo-3d .station-row:hover {
+    background-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .station-row > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mini-tokyo-3d .station-title-box {
+    padding-left: 30px;
+}
+.mini-tokyo-3d .station-time-box {
+    width: 42px;
+    text-align: right;
+}
+.mini-tokyo-3d .train-title-box {
+    padding-left: 40px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.mini-tokyo-3d .exit-row {
+    margin: 4px 0;
+}
+.mini-tokyo-3d .station-row:last-child {
+    margin-bottom: 10px;
+}
+.mini-tokyo-3d .exit-row:hover {
+    background-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .exit-row > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.mini-tokyo-3d .exit-title-box:before {
+    content: "";
+    display: block;
+    background: no-repeat center/20px 20px svg-load('sign-in-alt.svg', fill: #fff);
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+.mini-tokyo-3d .exit-share-button {
+    height: 30px;
+}
+.mini-tokyo-3d .panel-button-group {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 100%;
+}
+.mini-tokyo-3d .panel-button-group > * {
+    margin-left: 10px;
+    float: right;
+}
+.mini-tokyo-3d .slide-button {
+    width: 20px;
+    height: 100%;
+    background: no-repeat center/13px svg-load('angle-down.svg', fill: #fff);
+    pointer-events: none;
+}
+.mini-tokyo-3d .collapsed .slide-button {
+    background-image: svg-load('angle-up.svg', fill: #fff);
+}
+.mini-tokyo-3d #slide-button {
+    pointer-events: none;
+}
+.mini-tokyo-3d .search-panel {
+    height: 238px;
+}
+.mini-tokyo-3d .search-panel.search-result {
+    height: 33%;
+}
+.mini-tokyo-3d .search-panel.collapsed {
+    height: 59px;
+}
+.mini-tokyo-3d .search-panel #panel-header {
+    height: 39px;
+    line-height: 39px;
+}
+.mini-tokyo-3d .search-panel #panel-body {
+    height: calc(100% - 59px);
+}
+.mini-tokyo-3d .page-controller {
+    display: table;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+}
+.mini-tokyo-3d .page-controller > span {
+    width: 39px;
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+.mini-tokyo-3d .page-controller > span:first-child {
+    margin-right: 1px;
+    border-right: solid 1px #777;
+}
+.mini-tokyo-3d .page-controller button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.mini-tokyo-3d .page-controller .previous-button {
+    border-radius: 10px 0 0 10px;
+}
+.mini-tokyo-3d .page-controller .next-button {
+    border-radius: 0 10px 10px 0;
+}
+.mini-tokyo-3d .previous-icon {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: no-repeat center/10px svg-load('angle-left.svg', fill: #fff);
+}
+.mini-tokyo-3d button:disabled .previous-icon {
+    background-image: svg-load('angle-left.svg', fill: #7f7f7f);
+}
+.mini-tokyo-3d .page-controller button:disabled {
+    cursor: not-allowed;
+}
+.mini-tokyo-3d .page-controller button:not(:disabled):hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .next-icon {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: no-repeat center/10px svg-load('angle-right.svg', fill: #fff);
+}
+.mini-tokyo-3d button:disabled .next-icon {
+    background-image: svg-load('angle-right.svg', fill: #7f7f7f);
+}
+.mini-tokyo-3d .back-button {
+    width: 39px;
+    height: 39px;
+    display: block;
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.mini-tokyo-3d .back-button:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .back-icon {
+    display: block;
+    width: 100%;
+    height: 14px;
+    background: no-repeat center/14px svg-load('undo.svg', fill: #fff);
+}
+.mini-tokyo-3d .search-panel #panel-content {
+    height: 100%;
+}
+.mini-tokyo-3d #search-form {
+    display: none;
+}
+.mini-tokyo-3d .search-form #search-form {
+    display: block;
+}
+.mini-tokyo-3d .search-form-element {
+    margin: 2px 0 4px;
+}
+.mini-tokyo-3d #search-load {
+    display: none;
+    height: 134px;
+    position: relative;
+}
+.mini-tokyo-3d .search-load #search-load {
+    display: block;
+}
+.mini-tokyo-3d #search-load > .ball-pulse {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.5, .5);
+    box-sizing: initial;
+    position: absolute;
+}
+.mini-tokyo-3d .search-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 220px;
+    height: 35px;
+    padding: 1px;
+    font-size: 15.6px;
+    border: 1px solid #777;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+.mini-tokyo-3d .search-input:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .search-focus {
+    outline: 2px solid #33B5E5;
+}
+.mini-tokyo-3d .search-select {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 39px;
+    padding: 0 10px;
+    margin: 0;
+    border: 1px solid #777;
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15.6px;
+}
+.mini-tokyo-3d .search-select:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d .search-button {
+    -webkit-appearance: none;
+    appearance: none;
+    width: calc(100% - 2px);
+    height: 37px;
+    margin: 1px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:0 0 0 1px #777;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15.6px;
+}
+.mini-tokyo-3d .search-button:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+.mini-tokyo-3d #search-result {
+    display: none;
+    height: 100%;
+}
+.mini-tokyo-3d .search-result #search-result {
+    display: block;
+}
+.mini-tokyo-3d .mapboxgl-ctrl-group {
+    border-radius: 10px;
+}
+.mini-tokyo-3d .mapboxgl-ctrl-group button {
+    width: 39px;
+    height: 39px;
+}
+.mini-tokyo-3d .mapboxgl-ctrl-group button:focus:first-child,
+.mini-tokyo-3d .mapboxgl-ctrl-group button:hover:first-child {
+    border-radius: 10px 10px 0 0;
+}
+.mini-tokyo-3d .mapboxgl-ctrl-group button:focus:last-child,
+.mini-tokyo-3d .mapboxgl-ctrl-group button:hover:last-child {
+    border-radius: 0 0 10px 10px;
+}
+.mini-tokyo-3d .mapboxgl-ctrl-group button:focus:only-child,
+.mini-tokyo-3d .mapboxgl-ctrl-group button:hover:only-child {
+    border-radius: inherit;
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-search .mapboxgl-ctrl-icon {
+    background: no-repeat center/19px svg-load('search.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-search-active .mapboxgl-ctrl-icon {
+    background-image: svg-load('search.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-underground .mapboxgl-ctrl-icon {
+    background: no-repeat center/23px svg-load('eye.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-underground-visible .mapboxgl-ctrl-icon {
+    background-image: svg-load('eye.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-track-helicopter .mapboxgl-ctrl-icon {
+    background: no-repeat center/23px svg-load('helicopter.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-track-helicopter.mapboxgl-ctrl-track-active .mapboxgl-ctrl-icon {
+    background-image: svg-load('helicopter.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-track-train .mapboxgl-ctrl-icon {
+    background: no-repeat center/19px svg-load('train.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-track-train.mapboxgl-ctrl-track-active .mapboxgl-ctrl-icon {
+    background-image: svg-load('train.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-playback .mapboxgl-ctrl-icon {
+    background: no-repeat center/21px svg-load('play-circle.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-playback-active .mapboxgl-ctrl-icon {
+    background-image: svg-load('play-circle.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-eco .mapboxgl-ctrl-icon {
+    background: no-repeat center/21px svg-load('battery-three-quarters.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-eco-active .mapboxgl-ctrl-icon {
+    background-image: svg-load('battery-three-quarters.svg', fill: #33B5E5);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-layers .mapboxgl-ctrl-icon {
+    background: no-repeat center/19px svg-load('layer-group.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-about .mapboxgl-ctrl-icon {
+    background: no-repeat center/21px svg-load('info-circle.svg', fill: #333);
+}
+.mini-tokyo-3d .mapboxgl-popup-content {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.mini-tokyo-3d .highlighted .mapboxgl-popup-content {
+    background-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .popup-object .mapboxgl-popup-content,
+.mini-tokyo-3d .popup-object .mapboxgl-popup-tip,
+.mini-tokyo-3d .popup-station .mapboxgl-popup-content,
+.mini-tokyo-3d .popup-station .mapboxgl-popup-tip {
+    pointer-events: none;
+}
+.mini-tokyo-3d .popup-station .mapboxgl-popup-content {
+    padding: 5px 10px;
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: rgba(0, 0, 0, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: rgba(0, 0, 0, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: rgba(0, 0, 0, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: rgba(0, 0, 0, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-top.highlighted .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-top-left.highlighted .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-top-right.highlighted .mapboxgl-popup-tip {
+    border-bottom-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom.highlighted .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom-left.highlighted .mapboxgl-popup-tip,
+.mini-tokyo-3d .mapboxgl-popup-anchor-bottom-right.highlighted .mapboxgl-popup-tip {
+    border-top-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-left.highlighted .mapboxgl-popup-tip {
+    border-right-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .mapboxgl-popup-anchor-right.highlighted .mapboxgl-popup-tip {
+    border-left-color: rgba(102, 102, 102, 0.7);
+}
+.mini-tokyo-3d .desc-header {
+    display: table;
+}
+.mini-tokyo-3d .desc-header > div {
+    display: table-cell;
+    vertical-align: top;
+}
+.mini-tokyo-3d .desc-header > div:first-child {
+    width: 10px;
+}
+.mini-tokyo-3d .desc-header > div:last-child {
+    padding-left: 8px;
+}
+.mini-tokyo-3d .desc-caution {
+    color: #f90;
+}
+.mini-tokyo-3d .desc-normal-style {
+    font-weight: normal;
+}
+.mini-tokyo-3d .line-strip {
+    width: 10px;
+    height: 13px;
+}
+.mini-tokyo-3d .line-strip-long {
+    width: 10px;
+    height: 16px;
+}
+.mini-tokyo-3d .train-type-label {
+    padding: 2px 2px 1px 2px;
+    border-radius: 3px;
+    color: #333;
+    background-color: #fff;
+}
+.mini-tokyo-3d .thumbnail-image-container {
+    width: 128px;
+    height: 72px;
+    margin-bottom: 4px;
+    position: relative;
+}
+.mini-tokyo-3d .thumbnail-image-container > .ball-pulse {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.5, .5);
+    box-sizing: initial;
+    position: absolute;
+}
+.mini-tokyo-3d .thumbnail-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.mini-tokyo-3d .railway-list {
+    display: inherit;
+    width: 128px;
+}
+.mini-tokyo-3d .railway-list > * {
+    vertical-align: middle;
+}
+.mini-tokyo-3d .railway-list .line-strip {
+    width: 10px;
+    height: 18px;
+    margin-right: 8px;
+    display: inline-block;
+}
+.mini-tokyo-3d .modal-panel-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+    background-color: #000;
+    opacity: 0.5;
+    transition: opacity 300ms ease;
+}
+.mini-tokyo-3d .modal-panel-background.closed {
+    opacity: 0;
+}
+.mini-tokyo-3d .close-button {
+    width: 20px;
+    height: 100%;
+    background: no-repeat center/13px svg-load('times.svg', fill: #fff);
+    cursor: pointer;
+}
+.mini-tokyo-3d .about-panel #panel-body{
+    font-size: 12px;
+    line-height: 20px;
+}
+.mini-tokyo-3d .about-panel a:link,
+.mini-tokyo-3d .about-panel a:visited {
+    color: #f90;
+    text-decoration: none;
+}
+.mini-tokyo-3d .about-panel a:hover,
+.mini-tokyo-3d .about-panel a:active {
+    color: #f90;
+    text-decoration: underline;
+}
+.mini-tokyo-3d .card-title {
+    background: rgba(51, 51, 51, 0.7);
+    color: #fff;
+    display: block;
+    padding: 4px;
+}
+.mini-tokyo-3d .card-body {
+    border: 1px solid rgba(51, 51, 51, 0.7);
+    margin-bottom: 10px;
+    padding: 0 4px;
+}
+.mini-tokyo-3d .layer-row {
+    height: 60px;
+}
+.mini-tokyo-3d .layer-row div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.mini-tokyo-3d .layer-icon {
+    width: 48px;
+    height: 48px;
+    margin: 1px 11px 1px 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #777;
+    cursor: pointer;
+    background: no-repeat center/32px svg-load('puzzle-piece.svg', fill: #fff);
+}
+.mini-tokyo-3d .layer-icon-enabled {
+    margin: 0 10px 0 0;
+    border-width: 2px;
+    border-color: #cc4a1a;
+}
+.mini-tokyo-3d .panel.closed {
+    height: 0;
+}
+.mini-tokyo-3d .search-panel.search-result #panel-body {
+    padding: 0;
+}
+.mini-tokyo-3d .swiper-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.mini-tokyo-3d .swiper-slide-content {
+    position: relative;
+    overflow: hidden;
+}
+.mini-tokyo-3d .swiper-pagination {
+    pointer-events: none;
+}
+.mini-tokyo-3d .swiper-pagination-bullet {
+    background-color: #fff;
+    pointer-events: auto;
+}

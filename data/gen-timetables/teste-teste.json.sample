@@ -1,0 +1,49 @@
+{
+  "railway": "p1.r1",
+  "type": "p1.t1",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "s1",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "s2",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "s3",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "s1",
+        "times": [
+          "10:00",
+          "11:00",
+          "12:00"
+        ]
+      },
+      {
+        "to": "s3",
+        "times": [
+          {
+            "from": "10:00",
+            "to": "16:59",
+            "interval": 180
+          },
+          {
+            "from": "17:00",
+            "to": "22:59",
+            "interval": 120
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

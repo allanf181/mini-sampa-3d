@@ -1,0 +1,32 @@
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    environment:
+      name: production
+      url: https://mini.sampa.br
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Install and Build 🔧
+        shell: bash
+        env:
+          VITE_KEY: ${{ secrets.MAPBOX_KEY }}
+        run: |
+          npm ci
+          npm run gen
+          npm run build-loader
+          npm run load
+          npm run build
+
+      - name: Deploy 🚀
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages publish ./dist --project-name=${{ github.event.repository.name }}

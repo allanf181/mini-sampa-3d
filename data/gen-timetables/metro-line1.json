@@ -1,0 +1,226 @@
+{
+  "railway": "Metro.Line1",
+  "type": "SP.Metro",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "Metro.Line1.JAB",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.CON",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.JUD",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.SAU",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.ARV",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.SCZ",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.VMN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.ANR",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.PSO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.VGO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.JQM",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.LIB",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.PSE",
+      "nextIn": 1
+    },
+    {
+      "previousIn": 1,
+      "station": "Metro.Line1.BTO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.LUZ",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.TRD",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line1.PPQ",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.TTE",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.CDU",
+      "nextIn": 1
+    },
+    {
+      "previousIn": 1,
+      "station": "Metro.Line1.SAN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.JPA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line1.PIG",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line1.TUC",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "Metro.Line1.TUC",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 15
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 3
+          },
+          {
+            "from": "06:00",
+            "to": "06:59",
+            "interval": 2
+          },
+          {
+            "from": "07:00",
+            "to": "08:59",
+            "interval": 1
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 2
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 1
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 2
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 3
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 5
+          }
+        ]
+      },
+      {
+        "to": "Metro.Line1.JAB",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 15
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 3
+          },
+          {
+            "from": "06:00",
+            "to": "06:59",
+            "interval": 2
+          },
+          {
+            "from": "07:00",
+            "to": "08:59",
+            "interval": 1
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 2
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 1
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 2
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 3
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 5
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

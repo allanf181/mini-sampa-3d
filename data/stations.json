@@ -1,0 +1,329 @@
+[
+  {
+    "id": "Metro.Line1.JAB",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6410302,
+      -23.646336
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Estação_Metrô_Jabaquara%28Linha_1-Azul%29._A_Estação_Jabaquara_foi_a_primeira_estação_de_Metrô_do_Brasil%2C_inaugurada_em_Setembro_de_1974_-_panoramio.jpg/128px-Estação_Metrô_Jabaquara%28Linha_1-Azul%29._A_Estação_Jabaquara_foi_a_primeira_estação_de_Metrô_do_Brasil%2C_inaugurada_em_Setembro_de_1974_-_panoramio.jpg",
+    "title": {
+      "en": "Jabaquara",
+      "pt": "Estação Jabaquara",
+      "pt-Wiki": "Terminal Intermodal Jabaquara"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.CON",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6412793,
+      -23.6349865
+    ],
+    "title": {
+      "en": "Conceição",
+      "pt": "Estação Conceição"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.JUD",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6409021,
+      -23.6257989
+    ],
+    "title": {
+      "en": "São Judas",
+      "pt": "Estação São Judas"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.SAU",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6391705,
+      -23.6182313
+    ],
+    "title": {
+      "en": "Saúde–Ultrafarma",
+      "pt": "Estação Saúde-Ultrafarma"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.ARV",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.637901,
+      -23.6104394
+    ],
+    "title": {
+      "en": "Praça da Árvore",
+      "pt": "Estação Praça da Árvore"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.SCZ",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6366725,
+      -23.5990533
+    ],
+    "title": {
+      "en": "Santa Cruz",
+      "pt": "Estação Santa Cruz",
+      "pt-Wiki": "Estação Santa Cruz (Metrô de São Paulo)"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.VMN",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6346528,
+      -23.58919
+    ],
+    "title": {
+      "en": "Vila Mariana",
+      "pt": "Estação Vila Mariana"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.ANR",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6383478,
+      -23.5812738
+    ],
+    "title": {
+      "en": "Ana Rosa",
+      "pt": "Estação Ana Rosa"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.PSO",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6407986,
+      -23.5754186
+    ],
+    "title": {
+      "en": "Paraíso",
+      "pt": "Estação Paraíso",
+      "pt-Wiki": "Estação Paraíso (Metrô de São Paulo)"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.VGO",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6399025,
+      -23.5687123
+    ],
+    "title": {
+      "en": "Vergueiro",
+      "pt": "Estação Vergueiro"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.JQM",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6385872,
+      -23.5615555
+    ],
+    "title": {
+      "en": "São Joaquim",
+      "pt": "Estação São Joaquim"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.LIB",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6357176,
+      -23.5549556
+    ],
+    "title": {
+      "en": "Japão-Liberdade",
+      "pt": "Estação Japão-Liberdade"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.PSE",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6328047,
+      -23.5506435
+    ],
+    "title": {
+      "en": "Sé",
+      "pt": "Estação Sé"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.BTO",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6339798,
+      -23.5445778
+    ],
+    "title": {
+      "en": "São Bento",
+      "pt": "Estação São Bento",
+      "pt-Wiki": "Estação São Bento (Metrô de São Paulo)"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.LUZ",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6336146,
+      -23.5370674
+    ],
+    "title": {
+      "en": "Luz",
+      "pt": "Estação Luz"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.TRD",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6321397,
+      -23.5309623
+    ],
+    "title": {
+      "en": "Tiradentes",
+      "pt": "Estação Tiradentes"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.PPQ",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6293526,
+      -23.5255041
+    ],
+    "title": {
+      "en": "Armênia",
+      "pt": "Estação Armênia"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line1.TTE",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6401282,
+      -23.5156407
+    ],
+    "title": {
+      "en": "Portuguesa-Tietê",
+      "pt": "Estação Portuguesa-Tietê"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line1.CDU",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.624929,
+      -23.509163
+    ],
+    "title": {
+      "en": "Carandiru",
+      "pt": "Estação Carandiru"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line1.SAN",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6247204,
+      -23.5025677
+    ],
+    "title": {
+      "en": "Santana",
+      "pt": "Estação Santana"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line1.JPA",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6170446,
+      -23.492483
+    ],
+    "title": {
+      "en": "Jardim São Paulo-Ayrton Senna",
+      "pt": "Estação Jardim São Paulo-Ayrton Senna"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line1.PIG",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.6085978,
+      -23.4870022
+    ],
+    "title": {
+      "en": "Parada Inglesa",
+      "pt": "Estação Parada Inglesa"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line1.TUC",
+    "railway": "Metro.Line1",
+    "coord": [
+      -46.60325,
+      -23.4800823
+    ],
+    "title": {
+      "en": "Tucuruvi",
+      "pt": "Estação Tucuruvi"
+    },
+    "exit": [],
+    "altitude": -1
+  }
+]
