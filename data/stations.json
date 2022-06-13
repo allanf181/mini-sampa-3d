@@ -325,5 +325,203 @@
     },
     "exit": [],
     "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.VPT",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.5819557,
+      -23.5844161
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Estacao_Vila_Prudente.jpg/128px-Estacao_Vila_Prudente.jpg",
+    "title": {
+      "en": "Vila Prudente",
+      "pt": "Estação Vila Prudente",
+      "pt-Wiki": "Terminal Intermodal Vila Prudente"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.TTI",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.5895718,
+      -23.5927934
+    ],
+    "title": {
+      "en": "Tamanduateí",
+      "pt": "Estação Tamanduateí"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line2.SAC",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6025821,
+      -23.6012617
+    ],
+    "title": {
+      "en": "Sacomã",
+      "pt": "Estação Sacomã"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.AIP",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6124598,
+      -23.6022063
+    ],
+    "title": {
+      "en": "Alto do Ipiranga",
+      "pt": "Estação Alto do Ipiranga"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.IMG",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6209516,
+      -23.5957405
+    ],
+    "title": {
+      "en": "Santos-Imigrantes",
+      "pt": "Estação Santos-Imigrantes"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line2.CKB",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6306225,
+      -23.5923854
+    ],
+    "title": {
+      "en": "Chácara Klabin",
+      "pt": "Estação Chácara Klabin"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.ANR",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6384332,
+      -23.5813935
+    ],
+    "title": {
+      "en": "Ana Rosa",
+      "pt": "Estação Ana Rosa"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.PSO",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6409011,
+      -23.5753455
+    ],
+    "title": {
+      "en": "Paraíso",
+      "pt": "Estação Paraíso"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.BGD",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6496815,
+      -23.5685434
+    ],
+    "title": {
+      "en": "Brigadeiro",
+      "pt": "Estação Brigadeiro"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.TRI",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6541854,
+      -23.5632422
+    ],
+    "title": {
+      "en": "Trianon-Masp",
+      "pt": "Estação Trianon-Masp"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.CNS",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6604929,
+      -23.5577354
+    ],
+    "title": {
+      "en": "Consolação",
+      "pt": "Estação Consolação"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.CLI",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6709502,
+      -23.5539779
+    ],
+    "title": {
+      "en": "Clínicas",
+      "pt": "Estação Clínicas"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.SUM",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6776625,
+      -23.5509452
+    ],
+    "title": {
+      "en": "Santuário Nossa Senhora de Fátima-Sumaré",
+      "pt": "Estação Santuário Nossa Senhora de Fátima-Sumaré"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line2.VMD",
+    "railway": "Metro.Line2",
+    "coord": [
+      -46.6910875,
+      -23.5462155
+    ],
+    "title": {
+      "en": "Vila Madalena",
+      "pt": "Estação Vila Madalena"
+    },
+    "exit": [],
+    "altitude": -1
   }
 ]

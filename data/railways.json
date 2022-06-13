@@ -31,8 +31,35 @@
       "Metro.Line1.TUC"
     ],
     "ascending": "SP.TUC",
-    "altitude": 0,
+    "altitude": -1,
     "color": "#1266AF",
+    "carComposition": 6
+  },
+  {
+    "id": "Metro.Line2",
+    "title": {
+      "en": "Line 2",
+      "pt": "Linha 2"
+    },
+    "stations": [
+      "Metro.Line2.VPT",
+      "Metro.Line2.TTI",
+      "Metro.Line2.SAC",
+      "Metro.Line2.AIP",
+      "Metro.Line2.IMG",
+      "Metro.Line2.CKB",
+      "Metro.Line2.ANR",
+      "Metro.Line2.PSO",
+      "Metro.Line2.BGD",
+      "Metro.Line2.TRI",
+      "Metro.Line2.CNS",
+      "Metro.Line2.CLI",
+      "Metro.Line2.SUM",
+      "Metro.Line2.VMD"
+    ],
+    "ascending": "SP.VMD",
+    "altitude": -1,
+    "color": "#008162",
     "carComposition": 6
   }
 ]

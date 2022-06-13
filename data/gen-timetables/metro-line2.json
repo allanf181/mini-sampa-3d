@@ -1,0 +1,181 @@
+{
+  "railway": "Metro.Line2",
+  "type": "SP.Metro",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "Metro.Line2.VPT",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line2.TTI",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line2.SAC",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.AIP",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.IMG",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.CKB",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.ANR",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.PSO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.BGD",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line2.TRI",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.CNS",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.CLI",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.SUM",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line2.VMD",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "Metro.Line2.VMD",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 15
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 3
+          },
+          {
+            "from": "06:00",
+            "to": "06:59",
+            "interval": 2
+          },
+          {
+            "from": "07:00",
+            "to": "08:59",
+            "interval": 1
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 2
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 1
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 2
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 3
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 5
+          }
+        ]
+      },
+      {
+        "to": "Metro.Line2.VPT",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 15
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 3
+          },
+          {
+            "from": "06:00",
+            "to": "06:59",
+            "interval": 2
+          },
+          {
+            "from": "07:00",
+            "to": "08:59",
+            "interval": 1
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 2
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 1
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 2
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 3
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 5
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}
