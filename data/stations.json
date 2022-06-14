@@ -731,7 +731,8 @@
     ],
     "title": {
       "en": "República",
-      "pt": "Estação República"
+      "pt": "Estação República",
+      "pt-Wiki": "Estação República (Metrô de São Paulo)"
     },
     "exit": [],
     "altitude": -1
@@ -778,5 +779,163 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "ViaQuatro.Line4.VSO",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.7348173,
+      -23.5934195
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Estação_da_Vila_Sônia.jpg/128px-Estação_da_Vila_Sônia.jpg",
+    "title": {
+      "en": "Vila Sônia",
+      "pt": "Estação Vila Sônia",
+      "pt-Wiki": "Terminal Intermodal Vila Sônia"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.MBI",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.7238145,
+      -23.5862202
+    ],
+    "title": {
+      "en": "São Paulo-Morumbi",
+      "pt": "Estação São Paulo-Morumbi"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.BUT",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.7080934,
+      -23.5718186
+    ],
+    "title": {
+      "en": "Butantã",
+      "pt": "Estação Butantã"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.PIN",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.7019523,
+      -23.5672147
+    ],
+    "title": {
+      "en": "Pinheiros",
+      "pt": "Estação Pinheiros",
+      "pt-Wiki": "Terminal Intermodal Pinheiros"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.FAL",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6940244,
+      -23.5672029
+    ],
+    "title": {
+      "en": "Faria Lima",
+      "pt": "Estação Faria Lima"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.FRA",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6841851,
+      -23.5662203
+    ],
+    "title": {
+      "en": "Fradique Coutinho",
+      "pt": "Estação Fradique Coutinho"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.FRE",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6719589,
+      -23.5606757
+    ],
+    "title": {
+      "en": "Oscar Freire",
+      "pt": "Estação Oscar Freire"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.PTA",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6623125,
+      -23.5552211
+    ],
+    "title": {
+      "en": "Paulista",
+      "pt": "Estação Paulista"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.HIG",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6523017,
+      -23.5489447
+    ],
+    "title": {
+      "en": "Higienópolis–Mackenzie",
+      "pt": "Estação Higienópolis–Mackenzie"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.REP",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6426405,
+      -23.5440229
+    ],
+    "title": {
+      "en": "República",
+      "pt": "Estação República",
+      "pt-Wiki": "Estação República (Metrô de São Paulo)"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaQuatro.Line4.LUZ",
+    "railway": "ViaQuatro.Line4",
+    "coord": [
+      -46.6345503,
+      -23.536244
+    ],
+    "title": {
+      "en": "Luz",
+      "pt": "Estação Luz"
+    },
+    "exit": [],
+    "altitude": -1
   }
 ]

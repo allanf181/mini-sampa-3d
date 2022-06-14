@@ -1,0 +1,126 @@
+{
+  "railway": "ViaQuatro.Line4",
+  "type": "SP.ViaQuatro",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "ViaQuatro.Line4.VSO",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "ViaQuatro.Line4.MBI",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "ViaQuatro.Line4.BUT",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaQuatro.Line4.PIN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaQuatro.Line4.FAL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.FRA",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.FRE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.PTA",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.HIG",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.REP",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaQuatro.Line4.LUZ",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "ViaQuatro.Line4.LUZ",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "05:59",
+            "interval": 6
+          },
+          {
+            "from": "06:00",
+            "to": "18:59",
+            "interval": 3
+          },
+          {
+            "from": "19:00",
+            "to": "20:59",
+            "interval": 2
+          },
+          {
+            "from": "21:00",
+            "to": "22:59",
+            "interval": 5
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 6
+          }
+        ]
+      },
+      {
+        "to": "ViaQuatro.Line4.VSO",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "05:59",
+            "interval": 6
+          },
+          {
+            "from": "06:00",
+            "to": "18:59",
+            "interval": 3
+          },
+          {
+            "from": "19:00",
+            "to": "20:59",
+            "interval": 2
+          },
+          {
+            "from": "21:00",
+            "to": "22:59",
+            "interval": 5
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 6
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

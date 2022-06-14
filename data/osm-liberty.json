@@ -25,7 +25,38 @@
       "type": "geojson",
       "data": {
         "type": "FeatureCollection",
-        "features": []
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Vila Sônia",
+              "name_pt": "Estação Vila Sônia",
+              "name_local": "Vila Sônia"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.7347275,
+                -23.5933972
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "São Paulo-Morumbi",
+              "name_pt": "Estação São Paulo-Morumbi",
+              "name_local": "São Paulo-Morumbi"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.7234726,
+                -23.5861140
+              ]
+            }
+          }
+        ]
       }
     }
   },

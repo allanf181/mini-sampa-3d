@@ -16,5 +16,17 @@
       "Metro.Line1.PSE",
       "Metro.Line3.PSE"
     ]
+  ],
+  [
+    [
+      "Metro.Line1.LUZ",
+      "ViaQuatro.Line4.LUZ"
+    ]
+  ],
+  [
+    [
+      "Metro.Line3.REP",
+      "ViaQuatro.Line4.REP"
+    ]
   ]
 ]

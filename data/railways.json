@@ -92,5 +92,29 @@
     "altitude": -1,
     "color": "#D9001C",
     "carComposition": 6
+  },
+  {
+    "id": "ViaQuatro.Line4",
+    "title": {
+      "en": "Line 4 (Yellow)",
+      "pt": "Linha 4-Amarela"
+    },
+    "stations": [
+      "ViaQuatro.Line4.VSO",
+      "ViaQuatro.Line4.MBI",
+      "ViaQuatro.Line4.BUT",
+      "ViaQuatro.Line4.PIN",
+      "ViaQuatro.Line4.FAL",
+      "ViaQuatro.Line4.FRA",
+      "ViaQuatro.Line4.FRE",
+      "ViaQuatro.Line4.PTA",
+      "ViaQuatro.Line4.HIG",
+      "ViaQuatro.Line4.REP",
+      "ViaQuatro.Line4.LUZ"
+    ],
+    "ascending": "SP.LUZ",
+    "altitude": -1,
+    "color": "#FFD700",
+    "carComposition": 6
   }
 ]
