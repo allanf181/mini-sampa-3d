@@ -55,6 +55,51 @@
                 -23.5861140
               ]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Campo Belo",
+              "name_pt": "Estação Campo Belo",
+              "name_local": "Campo Belo"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.6825098,
+                -23.6188457
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "AACD-Servidor",
+              "name_pt": "Estação AACD-Servidor",
+              "name_local": "AACD-Servidor"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.6522759,
+                -23.5976867
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Hospital São Paulo",
+              "name_pt": "Estação Hospital São Paulo",
+              "name_local": "Hospital São Paulo"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.6456704,
+                -23.5982735
+              ]
+            }
           }
         ]
       }

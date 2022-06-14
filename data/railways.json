@@ -116,5 +116,35 @@
     "altitude": -1,
     "color": "#FFD700",
     "carComposition": 6
+  },
+  {
+    "id": "ViaMobilidade.Line5",
+    "title": {
+      "en": "Line 5 (Lilac)",
+      "pt": "Linha 5-Lilás"
+    },
+    "stations": [
+      "ViaMobilidade.Line5.CPR",
+      "ViaMobilidade.Line5.CPL",
+      "ViaMobilidade.Line5.VBE",
+      "ViaMobilidade.Line5.GGR",
+      "ViaMobilidade.Line5.STA",
+      "ViaMobilidade.Line5.LTR",
+      "ViaMobilidade.Line5.APN",
+      "ViaMobilidade.Line5.ABV",
+      "ViaMobilidade.Line5.BGA",
+      "ViaMobilidade.Line5.BRK",
+      "ViaMobilidade.Line5.CPB",
+      "ViaMobilidade.Line5.ECT",
+      "ViaMobilidade.Line5.MOE",
+      "ViaMobilidade.Line5.SER",
+      "ViaMobilidade.Line5.HSP",
+      "ViaMobilidade.Line5.SCZ",
+      "ViaMobilidade.Line5.CKB"
+    ],
+    "ascending": "SP.CKB",
+    "altitude": -1,
+    "color": "#9200C3",
+    "carComposition": 6
   }
 ]

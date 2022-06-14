@@ -937,5 +937,243 @@
     },
     "exit": [],
     "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.CPR",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7680481,
+      -23.659147
+    ],
+    "title": {
+      "en": "Capão Redondo",
+      "pt": "Estação Capão Redondo"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line5.CPL",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7592319,
+      -23.6496559
+    ],
+    "title": {
+      "en": "Campo Limpo",
+      "pt": "Estação Campo Limpo"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line5.VBE",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7458234,
+      -23.6402623
+    ],
+    "title": {
+      "en": "Vila das Belezas",
+      "pt": "Estação Vila das Belezas"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line5.GGR",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7343484,
+      -23.6438844
+    ],
+    "title": {
+      "en": "Giovanni Gronchi",
+      "pt": "Estação Giovanni Gronchi"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line5.STA",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7209187,
+      -23.6556506
+    ],
+    "title": {
+      "en": "Santo Amaro",
+      "pt": "Estação Santo Amaro"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line5.LTR",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7101247,
+      -23.6544276
+    ],
+    "title": {
+      "en": "Largo Treze",
+      "pt": "Estação Largo Treze"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.APN",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.7042217,
+      -23.6500649
+    ],
+    "title": {
+      "en": "Adolfo Pinheiro",
+      "pt": "Estação Adolfo Pinheiro"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.ABV",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.699896,
+      -23.6423268
+    ],
+    "title": {
+      "en": "Alto da Boa Vista",
+      "pt": "Estação Alto da Boa Vista"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.BGA",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6933005,
+      -23.6335799
+    ],
+    "title": {
+      "en": "Borba Gato",
+      "pt": "Estação Borba Gato"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.BRK",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6886764,
+      -23.6274863
+    ],
+    "title": {
+      "en": "Brooklin",
+      "pt": "Estação Brooklin"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.CPB",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6822973,
+      -23.6187147
+    ],
+    "title": {
+      "en": "Campo Belo",
+      "pt": "Estação Campo Belo"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.ECT",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.66855,
+      -23.6097189
+    ],
+    "title": {
+      "en": "Eucaliptos",
+      "pt": "Estação Eucaliptos"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.MOE",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6622116,
+      -23.6038219
+    ],
+    "title": {
+      "en": "Moema",
+      "pt": "Estação Moema"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.SER",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6523004,
+      -23.5977998
+    ],
+    "title": {
+      "en": "AACD-Servidor",
+      "pt": "Estação AACD-Servidor"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.HSP",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6455641,
+      -23.598175
+    ],
+    "title": {
+      "en": "Hospital São Paulo",
+      "pt": "Estação Hospital São Paulo"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.SCZ",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.6372347,
+      -23.5985043
+    ],
+    "title": {
+      "en": "Santa Cruz",
+      "pt": "Estação Santa Cruz"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "ViaMobilidade.Line5.CKB",
+    "railway": "ViaMobilidade.Line5",
+    "coord": [
+      -46.630942,
+      -23.5929349
+    ],
+    "title": {
+      "en": "Chácara Klabin",
+      "pt": "Estação Chácara Klabin"
+    },
+    "exit": [],
+    "altitude": -1
   }
 ]

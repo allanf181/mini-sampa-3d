@@ -7,13 +7,13 @@ const moment = require('moment');
 
 const genTravelFromInterval = (travel) => {
     const newTimes = [];
-    let clock = moment(travel.times[0].from, 'H:mm');
+    let clock = moment(travel.times[0].from, 'HH:mm');
     for (let intervalKey = 0; intervalKey < travel.times.length; intervalKey++) {
         const interval = travel.times[intervalKey];
         do {
-            newTimes.push(clock.format('H:mm'));
+            newTimes.push(clock.format('HH:mm'));
             clock = clock.add(interval.interval, 'minute');
-        } while (clock < moment(interval.to, 'H:mm'));
+        } while (clock < (interval.to.startsWith("00:") ? moment(interval.to, 'HH:mm').add(1, "day") : moment(interval.to, 'HH:mm')));
     }
     return newTimes;
 };
@@ -43,23 +43,23 @@ const buildTimetable = (num, id, type, stations, exitTimeType, destination, star
         ],
         "tt": []
     };
-    let clock = moment(startTime, 'H:mm');
+    let clock = moment(startTime, 'HH:mm');
     for (const station of stations) {
         if(station === stations[0]) {
             timetable.tt.push({
                 "s": station.station,
-                "d": clock.format('H:mm')
+                "d": clock.format('HH:mm')
             });
         } else if (station === stations[stations.length - 1]) {
             timetable.tt.push({
                 "s": station.station,
-                "a": clock.format('H:mm')
+                "a": clock.format('HH:mm')
             });
         } else {
             timetable.tt.push({
                 "s": station.station,
-                "a": clock.format('H:mm'),
-                "d": clock.clone().add(1, 'minute').format('H:mm')
+                "a": clock.format('HH:mm'),
+                "d": clock.clone().add(1, 'minute').format('HH:mm')
             });
         }
         clock = clock.add(station[nextKey], 'minute');

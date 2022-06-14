@@ -1,0 +1,257 @@
+{
+  "railway": "ViaMobilidade.Line5",
+  "type": "SP.Metro",
+  "operator": "SP.ViaMobilidade",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "ViaMobilidade.Line5.CPR",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line5.CPL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line5.VBE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line5.GGR",
+      "nextIn": 6
+    },
+    {
+      "previousIn": 6,
+      "station": "ViaMobilidade.Line5.STA",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "ViaMobilidade.Line5.LTR",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.APN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.ABV",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.BGA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.BRK",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.CPB",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line5.ECT",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.MOE",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.SER",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.HSP",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.SCZ",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line5.CKB",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "ViaMobilidade.Line5.CKB",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "06:59",
+            "interval": 8
+          },
+          {
+            "from": "07:00",
+            "to": "07:59",
+            "interval": 7
+          },
+          {
+            "from": "08:00",
+            "to": "08:59",
+            "interval": 8
+          },
+          {
+            "from": "09:00",
+            "to": "09:59",
+            "interval": 7
+          },
+          {
+            "from": "10:00",
+            "to": "10:59",
+            "interval": 8
+          },
+          {
+            "from": "11:00",
+            "to": "11:59",
+            "interval": 7
+          },
+          {
+            "from": "12:00",
+            "to": "12:59",
+            "interval": 8
+          },
+          {
+            "from": "13:00",
+            "to": "13:59",
+            "interval": 7
+          },
+          {
+            "from": "14:00",
+            "to": "14:59",
+            "interval": 8
+          },
+          {
+            "from": "15:00",
+            "to": "15:59",
+            "interval": 7
+          },
+          {
+            "from": "16:00",
+            "to": "16:59",
+            "interval": 8
+          },
+          {
+            "from": "17:00",
+            "to": "17:59",
+            "interval": 7
+          },
+          {
+            "from": "18:00",
+            "to": "18:59",
+            "interval": 8
+          },
+          {
+            "from": "19:00",
+            "to": "19:59",
+            "interval": 7
+          },
+          {
+            "from": "20:00",
+            "to": "00:59",
+            "interval": 8
+          }
+        ]
+      },
+      {
+        "to": "ViaMobilidade.Line5.CPR",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "06:59",
+            "interval": 8
+          },
+          {
+            "from": "07:00",
+            "to": "07:59",
+            "interval": 7
+          },
+          {
+            "from": "08:00",
+            "to": "08:59",
+            "interval": 8
+          },
+          {
+            "from": "09:00",
+            "to": "09:59",
+            "interval": 7
+          },
+          {
+            "from": "10:00",
+            "to": "10:59",
+            "interval": 8
+          },
+          {
+            "from": "11:00",
+            "to": "11:59",
+            "interval": 7
+          },
+          {
+            "from": "12:00",
+            "to": "12:59",
+            "interval": 8
+          },
+          {
+            "from": "13:00",
+            "to": "13:59",
+            "interval": 7
+          },
+          {
+            "from": "14:00",
+            "to": "14:59",
+            "interval": 8
+          },
+          {
+            "from": "15:00",
+            "to": "15:59",
+            "interval": 7
+          },
+          {
+            "from": "16:00",
+            "to": "16:59",
+            "interval": 8
+          },
+          {
+            "from": "17:00",
+            "to": "17:59",
+            "interval": 7
+          },
+          {
+            "from": "18:00",
+            "to": "18:59",
+            "interval": 8
+          },
+          {
+            "from": "19:00",
+            "to": "19:59",
+            "interval": 7
+          },
+          {
+            "from": "20:00",
+            "to": "00:59",
+            "interval": 8
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

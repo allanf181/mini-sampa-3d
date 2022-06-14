@@ -28,5 +28,25 @@
       "Metro.Line3.REP",
       "ViaQuatro.Line4.REP"
     ]
+  ],
+  [
+    [
+      "Metro.Line2.CNS"
+    ],
+    [
+      "ViaQuatro.Line4.PTA"
+    ]
+  ],
+  [
+    [
+      "Metro.Line1.SCZ",
+      "ViaMobilidade.Line5.SCZ"
+    ]
+  ],
+  [
+    [
+      "Metro.Line2.CKB",
+      "ViaMobilidade.Line5.CKB"
+    ]
   ]
 ]
