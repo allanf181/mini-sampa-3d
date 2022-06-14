@@ -44,6 +44,9 @@ export default async function() {
     (await Promise.all(stationLists.map(stations =>
         loadJSON(`${WIKIPEDIA_URL}?${WIKIPEDIA_PARAMS}&titles=${stations.join('|').replace(/undefined\|/g,"")}`)
     ))).forEach((result) => {
+        if(!result.query) {
+            return;
+        }
         const {pages} = result.query;
 
         for (const id in pages) {

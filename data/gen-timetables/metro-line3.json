@@ -1,0 +1,191 @@
+{
+  "railway": "Metro.Line3",
+  "type": "SP.Metro",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "Metro.Line3.ITQ",
+      "nextIn": 6
+    },
+    {
+      "previousIn": 6,
+      "station": "Metro.Line3.ART",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.PCA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.VPA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.VTD",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.PEN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.CAR",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line3.TAT",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "Metro.Line3.BEL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line3.BRE",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.BAS",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.PDS",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.PSE",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.GBU",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line3.REP",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.CEC",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.DEO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line3.BFU",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "Metro.Line3.BFU",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 20
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 4
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 2
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 3
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 2
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 3
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 6
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      },
+      {
+        "to": "Metro.Line3.ITQ",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 20
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 4
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 2
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 3
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 2
+          },
+          {
+            "from": "20:00",
+            "to": "21:59",
+            "interval": 3
+          },
+          {
+            "from": "22:00",
+            "to": "22:59",
+            "interval": 6
+          },
+          {
+            "from": "23:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

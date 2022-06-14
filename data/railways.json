@@ -2,8 +2,8 @@
   {
     "id": "Metro.Line1",
     "title": {
-      "en": "Line 1",
-      "pt": "Linha 1"
+      "en": "Line 1 (Blue)",
+      "pt": "Linha 1-Azul"
     },
     "stations": [
       "Metro.Line1.JAB",
@@ -38,8 +38,8 @@
   {
     "id": "Metro.Line2",
     "title": {
-      "en": "Line 2",
-      "pt": "Linha 2"
+      "en": "Line 2 (Green)",
+      "pt": "Linha 2-Verde"
     },
     "stations": [
       "Metro.Line2.VPT",
@@ -60,6 +60,37 @@
     "ascending": "SP.VMD",
     "altitude": -1,
     "color": "#008162",
+    "carComposition": 6
+  },
+  {
+    "id": "Metro.Line3",
+    "title": {
+      "en": "Line 3 (Red)",
+      "pt": "Linha 3-Vermelha"
+    },
+    "stations": [
+      "Metro.Line3.ITQ",
+      "Metro.Line3.ART",
+      "Metro.Line3.PCA",
+      "Metro.Line3.VPA",
+      "Metro.Line3.VTD",
+      "Metro.Line3.PEN",
+      "Metro.Line3.CAR",
+      "Metro.Line3.TAT",
+      "Metro.Line3.BEL",
+      "Metro.Line3.BRE",
+      "Metro.Line3.BAS",
+      "Metro.Line3.PDS",
+      "Metro.Line3.PSE",
+      "Metro.Line3.GBU",
+      "Metro.Line3.REP",
+      "Metro.Line3.CEC",
+      "Metro.Line3.DEO",
+      "Metro.Line3.BFU"
+    ],
+    "ascending": "SP.BFU",
+    "altitude": -1,
+    "color": "#D9001C",
     "carComposition": 6
   }
 ]

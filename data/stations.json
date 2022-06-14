@@ -523,5 +523,260 @@
     },
     "exit": [],
     "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.ITQ",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.4710923,
+      -23.5422082
+    ],
+    "title": {
+      "en": "Corinthians-Itaquera",
+      "pt": "Estação Corinthians-Itaquera",
+      "pt-Wiki": "Terminal Intermodal Corinthians-Itaquera"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.ART",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.4846245,
+      -23.5402034
+    ],
+    "title": {
+      "en": "Artur Alvim",
+      "pt": "Estação Artur Alvim"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.PCA",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5014818,
+      -23.5310629
+    ],
+    "title": {
+      "en": "Patriarca-Vila Ré",
+      "pt": "Estação Patriarca-Vila Ré"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.VPA",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5166811,
+      -23.5292707
+    ],
+    "title": {
+      "en": "Guilhermina-Esperança",
+      "pt": "Estação Guilhermina-Esperança"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.VTD",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5308327,
+      -23.5318311
+    ],
+    "title": {
+      "en": "Vila Matilde",
+      "pt": "Estação Vila Matilde"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.PEN",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5425294,
+      -23.5334461
+    ],
+    "title": {
+      "en": "Penha",
+      "pt": "Estação Penha",
+      "pt-Wiki": "Estação Penha (São Paulo)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.CAR",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5642996,
+      -23.537806
+    ],
+    "title": {
+      "en": "Carrão-Assaí Atacadista",
+      "pt": "Estação Carrão-Assaí Atacadista"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.TAT",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.5764798,
+      -23.5404143
+    ],
+    "title": {
+      "en": "Tatuapé",
+      "pt": "Estação Tatuapé"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.BEL",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.58957,
+      -23.542814
+    ],
+    "title": {
+      "en": "Belém",
+      "pt": "Estação Belém"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.BRE",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6070715,
+      -23.546276
+    ],
+    "title": {
+      "en": "Bresser-Mooca",
+      "pt": "Estação Bresser-Mooca"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.BAS",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6158154,
+      -23.5477747
+    ],
+    "title": {
+      "en": "Brás",
+      "pt": "Estação Brás"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.PDS",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6259438,
+      -23.5496666
+    ],
+    "title": {
+      "en": "Pedro II",
+      "pt": "Estação Pedro II"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line3.PSE",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6328792,
+      -23.5504539
+    ],
+    "title": {
+      "en": "Sé",
+      "pt": "Estação Sé"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.GBU",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6389981,
+      -23.5479372
+    ],
+    "title": {
+      "en": "Anhangabaú",
+      "pt": "Estação Anhangabaú"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.REP",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.642904,
+      -23.5440463
+    ],
+    "title": {
+      "en": "República",
+      "pt": "Estação República"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.CEC",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6489353,
+      -23.5393091
+    ],
+    "title": {
+      "en": "Santa Cecília",
+      "pt": "Estação Santa Cecília"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.DEO",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6557827,
+      -23.5339115
+    ],
+    "title": {
+      "en": "Marechal Deodoro",
+      "pt": "Estação Marechal Deodoro"
+    },
+    "exit": [],
+    "altitude": -1
+  },
+  {
+    "id": "Metro.Line3.BFU",
+    "railway": "Metro.Line3",
+    "coord": [
+      -46.6674537,
+      -23.5259483
+    ],
+    "title": {
+      "en": "Palmeiras-Barra Funda",
+      "pt": "Estação Palmeiras-Barra Funda",
+      "pt-Wiki": "Terminal Intermodal Palmeiras-Barra Funda"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]
