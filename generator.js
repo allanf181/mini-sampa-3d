@@ -18,7 +18,7 @@ const genTravelFromInterval = (travel) => {
     return newTimes;
 };
 
-const buildTimetable = (num, id, type, stations, exitTimeType, destination, startTime, vehicle) => {
+const buildTimetable = (num, id, type, stations, exitTimeType, destination, startTime, vehicle, operator) => {
     let nextKey = "nextIn";
     if (destination === stations[0].station){
         stations = stations.slice().reverse();
@@ -31,6 +31,7 @@ const buildTimetable = (num, id, type, stations, exitTimeType, destination, star
         "r": id,
         "n": num,
         "y": type,
+        "o": operator,
         "d": destination
             .replace(/LinhaUni|ViaQuatro|ViaMobilidade|Metro|CPTM/g, 'SP')
             .replace(`${id.split('.')[1]}.`, ''),
@@ -91,6 +92,7 @@ const processFile = (file) => {
                         travel.to,
                         time,
                         def.vehicle,
+                        def.operator,
                     )
                 );
             }

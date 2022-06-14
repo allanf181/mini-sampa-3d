@@ -4,6 +4,7 @@ import stations from './stations';
 import features, {featureWorker} from './features';
 import trainTimetables from './train-timetables';
 import railDirections from './rail-directions';
+import trainOperators from './train-operators';
 import trainTypes from './train-types';
 import trainVehicles from './train-vehicles';
 import operators from './operators';
@@ -38,6 +39,7 @@ async function main() {
     features(railwayLookup, stationLookup);
     trainTimetables();
     railDirections();
+    trainOperators();
     trainTypes();
     trainVehicles();
     operators();

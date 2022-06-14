@@ -35,6 +35,7 @@ export function loadStaticData(dataUrl, lang, clock) {
         `${dataUrl}/features.json.gz`,
         `${dataUrl}/${getTimetableFileName(clock)}`,
         `${dataUrl}/rail-directions.json.gz`,
+        `${dataUrl}/train-operators.json.gz`,
         `${dataUrl}/train-types.json.gz`,
         `${dataUrl}/train-vehicles.json.gz`,
         `${dataUrl}/operators.json.gz`,
@@ -49,12 +50,13 @@ export function loadStaticData(dataUrl, lang, clock) {
         featureCollection: data[3],
         timetableData: data[4].concat(...data.slice(12)),
         railDirectionData: data[5],
-        trainTypeData: data[6],
-        trainVehicleData: data[7],
-        operatorData: data[8],
-        airportData: data[9],
-        flightStatusData: data[10],
-        poiData: data[11]
+        trainOperatorData: data[6],
+        trainTypeData: data[7],
+        trainVehicleData: data[8],
+        operatorData: data[9],
+        airportData: data[10],
+        flightStatusData: data[11],
+        poiData: data[12]
     }));
 }
 

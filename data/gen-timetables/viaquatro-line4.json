@@ -1,6 +1,7 @@
 {
   "railway": "ViaQuatro.Line4",
-  "type": "SP.ViaQuatro",
+  "type": "SP.Metro",
+  "operator": "SP.ViaQuatro",
   "stations": [
     {
       "previousIn": 0,

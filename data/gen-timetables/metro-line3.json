@@ -1,6 +1,7 @@
 {
   "railway": "Metro.Line3",
   "type": "SP.Metro",
+  "operator": "SP.CMSP",
   "stations": [
     {
       "previousIn": 0,

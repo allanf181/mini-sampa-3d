@@ -41,6 +41,7 @@
 	"for": "for $1",
 	"and": " / ",
 	"train-number": "Train number",
+	"train-operator": "Operator",
 	"destination": "Destination",
 	"previous-stop": "Previous stop",
 	"standing-at": "Standing at",

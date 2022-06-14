@@ -41,6 +41,7 @@
 	"for": "para $1",
 	"and": " / ",
 	"train-number": "Número do trem",
+	"train-operator": "Operador",
 	"destination": "Destino",
 	"previous-stop": "Parada anterior",
 	"standing-at": "Parado em",

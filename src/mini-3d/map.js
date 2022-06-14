@@ -562,6 +562,7 @@ export default class extends Evented {
         me.trainLookup = helpers.buildLookup(me.timetableData, 't');
 
         me.railDirectionLookup = helpers.buildLookup(me.railDirectionData);
+        me.trainOperatorLookup = helpers.buildLookup(me.trainOperatorData);
         me.trainTypeLookup = helpers.buildLookup(me.trainTypeData);
         me.trainVehicleLookup = helpers.buildLookup(me.trainVehicleData);
         me.operatorLookup = helpers.buildLookup(me.operatorData);
@@ -1644,6 +1645,13 @@ export default class extends Evented {
         return title[me.lang] || title.en;
     }
 
+    getLocalizedTrainOperatorTitle(operator) {
+        const me = this,
+            title = (me.trainOperatorLookup[operator] || {}).title || {};
+
+        return title[me.lang] || title.en;
+    }
+
     getLocalizedTrainTypeTitle(type) {
         const me = this,
             title = (me.trainTypeLookup[type] || {}).title || {};
@@ -1663,7 +1671,7 @@ export default class extends Evented {
 
     getLocalizedOperatorTitle(operator) {
         const me = this,
-            title = (me.operatorLookup[operator] || {}).title || {};
+            title = (me.trainOperatorLookup[operator] || {}).title || {};
 
         return title[me.lang] || title.en;
     }
@@ -1717,6 +1725,7 @@ export default class extends Evented {
             '<div><strong>',
             names ? names.map(name => name[lang] || name.en).join(dict['and']) : me.getLocalizedRailwayTitle(railwayID),
             '</strong>',
+            `<br> <strong>${dict['train-operator']}:</strong> ${me.getLocalizedOperatorTitle(train.o)}`,
             `<br> <span class="train-type-label">${me.getLocalizedTrainTypeTitle(train.y)}</span> `,
             destination ?
                 dict['for'].replace('$1', me.getLocalizedStationTitle(destination)) :
