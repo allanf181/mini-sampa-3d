@@ -146,5 +146,37 @@
     "altitude": -1,
     "color": "#9200C3",
     "carComposition": 6
+  },
+  {
+    "id": "CPTM.Line7",
+    "title": {
+      "en": "Line 7 (Ruby)",
+      "pt": "Linha 7-Rubi"
+    },
+    "stations": [
+      "CPTM.Line7.BAS",
+      "CPTM.Line7.LUZ",
+      "CPTM.Line7.BFU",
+      "CPTM.Line7.ABR",
+      "CPTM.Line7.LPA",
+      "CPTM.Line7.PQR",
+      "CPTM.Line7.PRT",
+      "CPTM.Line7.VCL",
+      "CPTM.Line7.JRG",
+      "CPTM.Line7.VAU",
+      "CPTM.Line7.PRU",
+      "CPTM.Line7.CAI",
+      "CPTM.Line7.FDR",
+      "CPTM.Line7.BFI",
+      "CPTM.Line7.FMO",
+      "CPTM.Line7.BTJ",
+      "CPTM.Line7.CLP",
+      "CPTM.Line7.VPL",
+      "CPTM.Line7.JUN"
+    ],
+    "ascending": "SP.JUN",
+    "altitude": 0,
+    "color": "#A8034F",
+    "carComposition": 8
   }
 ]

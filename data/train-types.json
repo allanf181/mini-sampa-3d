@@ -5,5 +5,12 @@
       "en": "Metro",
       "pt": "Metrô"
     }
+  },
+  {
+    "id": "SP.Rail",
+    "title": {
+      "en": "Rail",
+      "pt": "Trem"
+    }
   }
 ]

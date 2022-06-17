@@ -21,6 +21,9 @@
     [
       "Metro.Line1.LUZ",
       "ViaQuatro.Line4.LUZ"
+    ],
+    [
+      "CPTM.Line7.LUZ"
     ]
   ],
   [
@@ -47,6 +50,20 @@
     [
       "Metro.Line2.CKB",
       "ViaMobilidade.Line5.CKB"
+    ]
+  ],
+  [
+    [
+      "Metro.Line3.BAS"
+    ],
+    [
+      "CPTM.Line7.BAS"
+    ]
+  ],
+  [
+    [
+      "Metro.Line3.BFU",
+      "CPTM.Line7.BFU"
     ]
   ]
 ]

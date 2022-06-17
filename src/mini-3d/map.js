@@ -56,7 +56,7 @@ export default class extends Evented {
         options = {
             ...options,
             accessToken: import.meta.env.VITE_KEY,
-            hash: false,
+            hash: import.meta.env.DEV,
             center: configs.defaultCenter,
             zoom: configs.defaultZoom,
             bearing: configs.defaultBearing,
@@ -70,7 +70,7 @@ export default class extends Evented {
             configControl: true,
             trackingMode: configs.defaultTrackingMode,
             ecoMode: configs.defaultEcoMode,
-            ecoFrameRate: configs.defaultEcoFrameRate
+            ecoFrameRate: configs.defaultEcoFrameRate,
         };
         me.lang = helpers.getLang(options.lang);
         me.dataUrl = options.dataUrl;

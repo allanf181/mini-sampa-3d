@@ -121,7 +121,7 @@ export default class {
     }
 
     getCalendar() {
-        const holidays = new Holidays('BR', 'SP', {types: ['public']});
+        const holidays = new Holidays('BR', 'SP', 'SP', {types: ['public', 'optional']});
 
         const date = this.getBRTDate(),
             hours = date.getHours();

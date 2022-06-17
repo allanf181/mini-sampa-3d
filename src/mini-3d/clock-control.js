@@ -201,7 +201,7 @@ export default class extends Evented {
     }
 
     _refresh() {
-        const holidays = new Holidays('BR', 'SP', {types: ['public']});
+        const holidays = new Holidays('BR', 'SP', 'SP', {types: ['public', 'optional']});
 
         const me = this,
             lang = me._lang,

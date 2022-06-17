@@ -472,8 +472,8 @@
     "id": "Metro.Line2.CNS",
     "railway": "Metro.Line2",
     "coord": [
-      -46.6604929,
-      -23.5577354
+      -46.6612530,
+      -23.5570956
     ],
     "title": {
       "en": "Consolação",
@@ -1175,5 +1175,273 @@
     },
     "exit": [],
     "altitude": -1
+  },
+  {
+    "id": "CPTM.Line7.BAS",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.6164778,
+      -23.5454011
+    ],
+    "title": {
+      "en": "Brás",
+      "pt": "Estação Brás"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.LUZ",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.6354559,
+      -23.5350961
+    ],
+    "title": {
+      "en": "Luz",
+      "pt": "Estação Luz"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.BFU",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.6673996,
+      -23.5254487
+    ],
+    "title": {
+      "en": "Palmeiras-Barra Funda",
+      "pt": "Estação Palmeiras-Barra Funda"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.ABR",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.6891028,
+      -23.5213834
+    ],
+    "title": {
+      "en": "Água Branca",
+      "pt": "Estação Água Branca"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.LPA",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7044036,
+      -23.5174147
+    ],
+    "title": {
+      "en": "Lapa",
+      "pt": "Estação Lapa",
+      "pt-Wiki": "Estação Lapa (Linha 7 da CPTM)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.PQR",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.714962,
+      -23.5024159
+    ],
+    "title": {
+      "en": "Piqueri",
+      "pt": "Estação Piqueri"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.PRT",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7264367,
+      -23.4883715
+    ],
+    "title": {
+      "en": "Pirituba",
+      "pt": "Estação Pirituba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.VCL",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7449524,
+      -23.4693154
+    ],
+    "title": {
+      "en": "Vila Clarice",
+      "pt": "Estação Vila Clarice"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.JRG",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7392213,
+      -23.4547572
+    ],
+    "title": {
+      "en": "Jaraguá",
+      "pt": "Estação Jaraguá",
+      "pt-Wiki": "Estação Jaraguá (CPTM)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.VAU",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7474817,
+      -23.4371421
+    ],
+    "title": {
+      "en": "Vila Aurora",
+      "pt": "Estação Vila Aurora"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.PRU",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7538832,
+      -23.4046912
+    ],
+    "title": {
+      "en": "Perus",
+      "pt": "Estação Perus"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.CAI",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7512428,
+      -23.3658124
+    ],
+    "title": {
+      "en": "Caieiras",
+      "pt": "Estação Caieiras"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.FDR",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7262638,
+      -23.329396
+    ],
+    "title": {
+      "en": "Franco da Rocha",
+      "pt": "Estação Franco da Rocha"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.BFI",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7237616,
+      -23.3098689
+    ],
+    "title": {
+      "en": "Baltazar Fidélis",
+      "pt": "Estação Baltazar Fidélis"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.FMO",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7424863,
+      -23.2820673
+    ],
+    "title": {
+      "en": "Francisco Morato",
+      "pt": "Estação Francisco Morato"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.BTJ",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7675788,
+      -23.2359467
+    ],
+    "title": {
+      "en": "Botujuru",
+      "pt": "Estação Botujuru"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.CLP",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.7853705,
+      -23.2067511
+    ],
+    "title": {
+      "en": "Campo Limpo Paulista",
+      "pt": "Estação Campo Limpo Paulista"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.VPL",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.8291902,
+      -23.20891
+    ],
+    "title": {
+      "en": "Várzea Paulista",
+      "pt": "Estação Várzea Paulista"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line7.JUN",
+    "railway": "CPTM.Line7",
+    "coord": [
+      -46.8724945,
+      -23.1947789
+    ],
+    "title": {
+      "en": "Jundiaí",
+      "pt": "Estação Jundiaí"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]
