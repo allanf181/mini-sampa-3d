@@ -1753,5 +1753,286 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.OSA",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7758714,
+      -23.5277627
+    ],
+    "title": {
+      "en": "Osasco",
+      "pt": "Estação Osasco"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.PAL",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7617835,
+      -23.5312464
+    ],
+    "title": {
+      "en": "Presidente Altino",
+      "pt": "Estação Presidente Altino"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.CEA",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7425231,
+      -23.5374802
+    ],
+    "title": {
+      "en": "Ceasa",
+      "pt": "Estação Ceasa"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.JAG",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7328338,
+      -23.5459232
+    ],
+    "title": {
+      "en": "Villa Lobos-Jaguaré",
+      "pt": "Estação Villa Lobos-Jaguaré"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.USP",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7119445,
+      -23.5575062
+    ],
+    "title": {
+      "en": "Cidade Universitária",
+      "pt": "Estação Cidade Universitária"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.PIN",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7029493,
+      -23.5664351
+    ],
+    "title": {
+      "en": "Pinheiros",
+      "pt": "Estação Pinheiros"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.HBR",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6986264,
+      -23.5735997
+    ],
+    "title": {
+      "en": "Hebraica-Rebouças",
+      "pt": "Estação Hebraica-Rebouças"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.CJD",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6911258,
+      -23.5851526
+    ],
+    "title": {
+      "en": "Cidade Jardim",
+      "pt": "Estação Cidade Jardim"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.VOL",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.692527,
+      -23.5934615
+    ],
+    "title": {
+      "en": "Vila Olímpia",
+      "pt": "Estação Vila Olímpia"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.BRR",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6966881,
+      -23.6047448
+    ],
+    "title": {
+      "en": "Berrini",
+      "pt": "Estação Berrini"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.MRB",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7015648,
+      -23.6216187
+    ],
+    "title": {
+      "en": "Morumbi",
+      "pt": "Estação Morumbi"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.GJT",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7119512,
+      -23.627558
+    ],
+    "title": {
+      "en": "Granja Julieta",
+      "pt": "Estação Granja Julieta"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.JOD",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7236704,
+      -23.640124
+    ],
+    "title": {
+      "en": "João Dias",
+      "pt": "Estação João Dias"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.SAM",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7191616,
+      -23.6561728
+    ],
+    "title": {
+      "en": "Santo Amaro",
+      "pt": "Estação Santo Amaro"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.SOC",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7109761,
+      -23.6632543
+    ],
+    "title": {
+      "en": "Socorro",
+      "pt": "Estação Socorro"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.JUR",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7023734,
+      -23.6771813
+    ],
+    "title": {
+      "en": "Jurubatuba",
+      "pt": "Estação Jurubatuba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.AUT",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6882563,
+      -23.7059963
+    ],
+    "title": {
+      "en": "Autódromo",
+      "pt": "Estação Autódromo"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.INT",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6917501,
+      -23.7228093
+    ],
+    "title": {
+      "en": "Primavera–Interlagos",
+      "pt": "Estação Primavera–Interlagos"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.GRA",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.6968662,
+      -23.7362993
+    ],
+    "title": {
+      "en": "Grajaú",
+      "pt": "Estação Grajaú",
+      "pt-Wiki": "Terminal Intermodal Grajaú"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line9.MVN",
+    "railway": "ViaMobilidade.Line9",
+    "coord": [
+      -46.7091852,
+      -23.7542417
+    ],
+    "title": {
+      "en": "Bruno Covas/Mendes–Vila Natal",
+      "pt": "Estação Bruno Covas/Mendes–Vila Natal"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

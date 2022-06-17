@@ -66,5 +66,33 @@
       "CPTM.Line7.BFU",
       "ViaMobilidade.Line8.BFU"
     ]
+  ],
+  [
+    [
+      "ViaMobilidade.Line8.OSA",
+      "ViaMobilidade.Line9.OSA"
+    ]
+  ],
+  [
+    [
+      "ViaMobilidade.Line8.PAL",
+      "ViaMobilidade.Line9.PAL"
+    ]
+  ],
+  [
+    [
+      "ViaQuatro.Line4.PIN"
+    ],
+    [
+      "ViaMobilidade.Line9.PIN"
+    ]
+  ],
+  [
+    [
+      "ViaMobilidade.Line5.STA"
+    ],
+    [
+      "ViaMobilidade.Line9.SAM"
+    ]
   ]
 ]

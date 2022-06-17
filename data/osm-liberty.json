@@ -145,6 +145,21 @@
                 -23.5305419
               ]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "João Dias",
+              "name_pt": "Estação João Dias",
+              "name_local": "João Dias"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.7237187,
+                -23.6401003
+              ]
+            }
           }
         ]
       }

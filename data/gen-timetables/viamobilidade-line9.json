@@ -1,0 +1,172 @@
+{
+  "railway": "ViaMobilidade.Line9",
+  "type": "SP.Rail",
+  "operator": "SP.ViaMobilidade",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "ViaMobilidade.Line9.OSA",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "ViaMobilidade.Line9.PAL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.CEA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.JAG",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.USP",
+      "nextIn": 7
+    },
+    {
+      "previousIn": 7,
+      "station": "ViaMobilidade.Line9.PIN",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "ViaMobilidade.Line9.HBR",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.CJD",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.VOL",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.BRR",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.MRB",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.GJT",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.JOD",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.SAM",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.SOC",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.JUR",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "ViaMobilidade.Line9.AUT",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line9.INT",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line9.GRA",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "ViaMobilidade.Line9.MVN",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "ViaMobilidade.Line9.MVN",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "05:59",
+            "interval": 8
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 4
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 7
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 4
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 7
+          }
+        ]
+      },
+      {
+        "to": "ViaMobilidade.Line9.OSA",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "05:59",
+            "interval": 8
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 4
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 7
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 4
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 7
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

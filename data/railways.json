@@ -213,5 +213,38 @@
     "altitude": 0,
     "color": "#808080",
     "carComposition": 8
+  },
+  {
+    "id": "ViaMobilidade.Line9",
+    "title": {
+      "en": "Line 9 (Emerald)",
+      "pt": "Linha 9-Esmeralda"
+    },
+    "stations": [
+      "ViaMobilidade.Line9.OSA",
+      "ViaMobilidade.Line9.PAL",
+      "ViaMobilidade.Line9.CEA",
+      "ViaMobilidade.Line9.JAG",
+      "ViaMobilidade.Line9.USP",
+      "ViaMobilidade.Line9.PIN",
+      "ViaMobilidade.Line9.HBR",
+      "ViaMobilidade.Line9.CJD",
+      "ViaMobilidade.Line9.VOL",
+      "ViaMobilidade.Line9.BRR",
+      "ViaMobilidade.Line9.MRB",
+      "ViaMobilidade.Line9.GJT",
+      "ViaMobilidade.Line9.JOD",
+      "ViaMobilidade.Line9.SAM",
+      "ViaMobilidade.Line9.SOC",
+      "ViaMobilidade.Line9.JUR",
+      "ViaMobilidade.Line9.AUT",
+      "ViaMobilidade.Line9.INT",
+      "ViaMobilidade.Line9.GRA",
+      "ViaMobilidade.Line9.MVN"
+    ],
+    "ascending": "SP.MVN",
+    "altitude": 0,
+    "color": "#00A88E",
+    "carComposition": 8
   }
 ]
