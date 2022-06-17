@@ -178,5 +178,40 @@
     "altitude": 0,
     "color": "#A8034F",
     "carComposition": 8
+  },
+  {
+    "id": "ViaMobilidade.Line8",
+    "title": {
+      "en": "Line 8 (Diamond)",
+      "pt": "Linha 8-Diamante"
+    },
+    "stations": [
+      "ViaMobilidade.Line8.JPR",
+      "ViaMobilidade.Line8.BFU",
+      "ViaMobilidade.Line8.LAP",
+      "ViaMobilidade.Line8.DMO",
+      "ViaMobilidade.Line8.ILE",
+      "ViaMobilidade.Line8.PAL",
+      "ViaMobilidade.Line8.OSA",
+      "ViaMobilidade.Line8.CSA",
+      "ViaMobilidade.Line8.QTU",
+      "ViaMobilidade.Line8.GMC",
+      "ViaMobilidade.Line8.CPB",
+      "ViaMobilidade.Line8.STE",
+      "ViaMobilidade.Line8.AJO",
+      "ViaMobilidade.Line8.BRU",
+      "ViaMobilidade.Line8.JBE",
+      "ViaMobilidade.Line8.JSI",
+      "ViaMobilidade.Line8.JDI",
+      "ViaMobilidade.Line8.SCO",
+      "ViaMobilidade.Line8.ECD",
+      "ViaMobilidade.Line8.IPV",
+      "ViaMobilidade.Line8.SRT",
+      "ViaMobilidade.Line8.ABU"
+    ],
+    "ascending": "SP.ABU",
+    "altitude": 0,
+    "color": "#808080",
+    "carComposition": 8
   }
 ]

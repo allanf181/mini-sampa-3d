@@ -1443,5 +1443,315 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.JPR",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.6406866,
+      -23.5328347
+    ],
+    "title": {
+      "en": "Júlio Prestes",
+      "pt": "Estação Júlio Prestes"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.BFU",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.6673996,
+      -23.5254487
+    ],
+    "title": {
+      "en": "Palmeiras-Barra Funda",
+      "pt": "Estação Palmeiras-Barra Funda"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.LAP",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.699987,
+      -23.5196246
+    ],
+    "title": {
+      "en": "Lapa",
+      "pt": "Estação Lapa",
+      "pt-Wiki": "Estação Lapa (Linha 8-Diamante)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.DMO",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.721473,
+      -23.5187212
+    ],
+    "title": {
+      "en": "Domingos de Moraes",
+      "pt": "Estação Domingos de Moraes"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.ILE",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.7376494,
+      -23.5237542
+    ],
+    "title": {
+      "en": "Imperatriz Leopoldina",
+      "pt": "Estação Imperatriz Leopoldina"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.PAL",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.7618605,
+      -23.5311724
+    ],
+    "title": {
+      "en": "Presidente Altino",
+      "pt": "Estação Presidente Altino"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.OSA",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.7758089,
+      -23.5276872
+    ],
+    "title": {
+      "en": "Osasco",
+      "pt": "Estação Osasco"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.CSA",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.7956339,
+      -23.5256536
+    ],
+    "title": {
+      "en": "Comandante Sampaio",
+      "pt": "Estação Comandante Sampaio"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.QTU",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.8070705,
+      -23.5226454
+    ],
+    "title": {
+      "en": "Quitaúna",
+      "pt": "Estação Quitaúna"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.GMC",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.8158098,
+      -23.5233702
+    ],
+    "title": {
+      "en": "General Miguel Costa",
+      "pt": "Estação General Miguel Costa"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.CPB",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.835313,
+      -23.5183455
+    ],
+    "title": {
+      "en": "Carapicuíba",
+      "pt": "Estação Carapicuíba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.STE",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.848019,
+      -23.5165606
+    ],
+    "title": {
+      "en": "Santa Terezinha",
+      "pt": "Estação Santa Terezinha"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.AJO",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.8586974,
+      -23.5168654
+    ],
+    "title": {
+      "en": "Antônio João",
+      "pt": "Estação Antônio João"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.BRU",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.8750526,
+      -23.5126122
+    ],
+    "title": {
+      "en": "Barueri",
+      "pt": "Estação Barueri"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.JBE",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.889494,
+      -23.5142933
+    ],
+    "title": {
+      "en": "Jardim Belval",
+      "pt": "Estação Jardim Belval"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.JSI",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.89359,
+      -23.5234489
+    ],
+    "title": {
+      "en": "Jardim Silveira",
+      "pt": "Estação Jardim Silveira"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.JDI",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9023678,
+      -23.5275314
+    ],
+    "title": {
+      "en": "Jandira",
+      "pt": "Estação Jandira"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.SCO",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9172635,
+      -23.5290921
+    ],
+    "title": {
+      "en": "Sagrado Coração",
+      "pt": "Estação Sagrado Coração"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.ECD",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9286151,
+      -23.5351886
+    ],
+    "title": {
+      "en": "Engenheiro Cardoso",
+      "pt": "Estação Engenheiro Cardoso"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.IPV",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9352487,
+      -23.5455607
+    ],
+    "title": {
+      "en": "Itapevi",
+      "pt": "Estação Itapevi"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.SRT",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9474683,
+      -23.5450294
+    ],
+    "title": {
+      "en": "Santa Rita",
+      "pt": "Estação Santa Rita",
+      "pt-Wiki": "Estação Santa Rita (Linha 8-Diamante)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "ViaMobilidade.Line8.ABU",
+    "railway": "ViaMobilidade.Line8",
+    "coord": [
+      -46.9839173,
+      -23.5306011
+    ],
+    "title": {
+      "en": "Amador Bueno",
+      "pt": "Estação Amador Bueno"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

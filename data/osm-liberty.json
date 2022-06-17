@@ -115,6 +115,36 @@
                 -23.1952524
               ]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Quitaúna",
+              "name_pt": "Estação Quitaúna",
+              "name_local": "Quitaúna"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.8071741,
+                -23.5228499
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Amador Bueno",
+              "name_pt": "Estação Amador Bueno",
+              "name_local": "Amador Bueno"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.9838726,
+                -23.5305419
+              ]
+            }
           }
         ]
       }

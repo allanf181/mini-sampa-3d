@@ -1,0 +1,192 @@
+{
+  "railway": "ViaMobilidade.Line8",
+  "type": "SP.Rail",
+  "operator": "SP.ViaMobilidade",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "ViaMobilidade.Line8.JPR",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "ViaMobilidade.Line8.BFU",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.LAP",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.DMO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.ILE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.PAL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.OSA",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.CSA",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.QTU",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line8.GMC",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.CPB",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line8.STE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.AJO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.BRU",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line8.JBE",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line8.JSI",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.JDI",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.SCO",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "ViaMobilidade.Line8.ECD",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "ViaMobilidade.Line8.IPV",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "ViaMobilidade.Line8.SRT",
+      "nextIn": 8
+    },
+    {
+      "previousIn": 8,
+      "station": "ViaMobilidade.Line8.ABU",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "ViaMobilidade.Line8.ABU",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 10
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 8
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 5
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 8
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 6
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      },
+      {
+        "to": "ViaMobilidade.Line8.JPR",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 10
+          },
+          {
+            "from": "05:00",
+            "to": "05:59",
+            "interval": 8
+          },
+          {
+            "from": "06:00",
+            "to": "08:59",
+            "interval": 5
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 8
+          },
+          {
+            "from": "17:00",
+            "to": "19:59",
+            "interval": 6
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}
