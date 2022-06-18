@@ -2034,5 +2034,190 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.BAS",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.6165118,
+      -23.5454214
+    ],
+    "title": {
+      "en": "Brás",
+      "pt": "Estação Brás"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.MOC",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.6083373,
+      -23.5579522
+    ],
+    "title": {
+      "en": "Juventus-Mooca",
+      "pt": "Estação Juventus-Mooca"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.IPG",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.5966979,
+      -23.5824033
+    ],
+    "title": {
+      "en": "Ipiranga",
+      "pt": "Estação Ipiranga",
+      "pt-Wiki": "Estação Ipiranga (CPTM)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.TMD",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.5895021,
+      -23.5926832
+    ],
+    "title": {
+      "en": "Tamanduateí",
+      "pt": "Estação Tamanduateí"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.SCS",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.5700652,
+      -23.6100805
+    ],
+    "title": {
+      "en": "São Caetano do Sul - Prefeito Walter Braido",
+      "pt": "Estação São Caetano do Sul - Prefeito Walter Braido"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.UTG",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.544107,
+      -23.6262316
+    ],
+    "title": {
+      "en": "Utinga",
+      "pt": "Estação Utinga",
+      "pt-Wiki": "Estação Utinga (CPTM)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.PSA",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.5373139,
+      -23.637468
+    ],
+    "title": {
+      "en": "Prefeito Saladino",
+      "pt": "Estação Prefeito Saladino"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.SAN",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.528196,
+      -23.6521148
+    ],
+    "title": {
+      "en": "Prefeito Celso Daniel - Santo André",
+      "pt": "Estação Prefeito Celso Daniel - Santo André"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.CPV",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.4898054,
+      -23.6582903
+    ],
+    "title": {
+      "en": "Capuava",
+      "pt": "Estação Capuava"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.MAU",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.4615316,
+      -23.6682293
+    ],
+    "title": {
+      "en": "Mauá",
+      "pt": "Estação Mauá",
+      "pt-Wiki": "Estação Mauá (CPTM)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.GPT",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.4487771,
+      -23.6920326
+    ],
+    "title": {
+      "en": "Guapituba",
+      "pt": "Estação Guapituba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.RPI",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.4142577,
+      -23.7142412
+    ],
+    "title": {
+      "en": "Ribeirão Pires - Antônio Bespalec",
+      "pt": "Estação Ribeirão Pires - Antônio Bespalec"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line10.RGS",
+    "railway": "CPTM.Line10",
+    "coord": [
+      -46.391736,
+      -23.7434307
+    ],
+    "title": {
+      "en": "Rio Grande da Serra",
+      "pt": "Estação Rio Grande da Serra"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

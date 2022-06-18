@@ -160,6 +160,66 @@
                 -23.6401003
               ]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Juventus-Mooca",
+              "name_pt": "Estação Juventus-Mooca",
+              "name_local": "Juventus-Mooca"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.6084629,
+                -23.5581131
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Prefeito Celso Daniel - Santo André",
+              "name_pt": "Estação Prefeito Celso Daniel - Santo André",
+              "name_local": "Prefeito Celso Daniel - Santo André"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.5283031,
+                -23.6523317
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Mauá",
+              "name_pt": "Estação Mauá",
+              "name_local": "Prefeito Mauá"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.4616267,
+                -23.6683812
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Rio Grande da Serra",
+              "name_pt": "Estação Rio Grande da Serra",
+              "name_local": "Prefeito Rio Grande da Serra"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.3917649,
+                -23.7432693
+              ]
+            }
           }
         ]
       }

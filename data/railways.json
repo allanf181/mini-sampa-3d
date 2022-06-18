@@ -246,5 +246,31 @@
     "altitude": 0,
     "color": "#00A88E",
     "carComposition": 8
+  },
+  {
+    "id": "CPTM.Line10",
+    "title": {
+      "en": "Line 10 (Turquoise)",
+      "pt": "Linha 10-Turquesa"
+    },
+    "stations": [
+      "CPTM.Line10.BAS",
+      "CPTM.Line10.MOC",
+      "CPTM.Line10.IPG",
+      "CPTM.Line10.TMD",
+      "CPTM.Line10.SCS",
+      "CPTM.Line10.UTG",
+      "CPTM.Line10.PSA",
+      "CPTM.Line10.SAN",
+      "CPTM.Line10.CPV",
+      "CPTM.Line10.MAU",
+      "CPTM.Line10.GPT",
+      "CPTM.Line10.RPI",
+      "CPTM.Line10.RGS"
+    ],
+    "ascending": "SP.RGS",
+    "altitude": 0,
+    "color": "#00CED1",
+    "carComposition": 8
   }
 ]

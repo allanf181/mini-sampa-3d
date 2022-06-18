@@ -87,7 +87,7 @@ const configs = {
     searchUrl: 'https://search.mini.sampa.br/api/v1/routes',
 
     // Timestamp when the static data was last updated
-    lastStaticUpdate: '2022-06-01 12:00:00',
+    lastStaticUpdate: '2022-06-13 13:29:00',
 
     // String to show in an Mapbox's AttributionControl
     customAttribution: '<a href="https://github.com/allanf181/mini-sampa-3d">© Allan Fernando</a>',

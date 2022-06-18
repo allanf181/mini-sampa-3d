@@ -57,7 +57,8 @@
       "Metro.Line3.BAS"
     ],
     [
-      "CPTM.Line7.BAS"
+      "CPTM.Line7.BAS",
+      "CPTM.Line10.BAS"
     ]
   ],
   [
@@ -93,6 +94,12 @@
     ],
     [
       "ViaMobilidade.Line9.SAM"
+    ]
+  ],
+  [
+    [
+      "Metro.Line2.TTI",
+      "CPTM.Line10.TMD"
     ]
   ]
 ]
