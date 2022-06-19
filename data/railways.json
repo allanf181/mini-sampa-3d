@@ -343,5 +343,29 @@
     "altitude": 0,
     "color": "#2CA05A",
     "carComposition": 8
+  },
+  {
+    "id": "Metro.Line15",
+    "title": {
+      "en": "Line 3 (Silver)",
+      "pt": "Linha 3-Prata"
+    },
+    "stations": [
+      "Metro.Line15.VPM",
+      "Metro.Line15.ORT",
+      "Metro.Line15.SLU",
+      "Metro.Line15.CDD",
+      "Metro.Line15.VTL",
+      "Metro.Line15.VUN",
+      "Metro.Line15.JPL",
+      "Metro.Line15.SAP",
+      "Metro.Line15.FJT",
+      "Metro.Line15.MAT",
+      "Metro.Line15.IGT"
+    ],
+    "ascending": "SP.IGT",
+    "altitude": 0,
+    "color": "#7B9192",
+    "carComposition": 7
   }
 ]

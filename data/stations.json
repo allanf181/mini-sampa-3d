@@ -2667,5 +2667,162 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.VPM",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5835156,
+      -23.5846469
+    ],
+    "title": {
+      "en": "Vila Prudente",
+      "pt": "Estação Vila Prudente"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.ORT",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5618212,
+      -23.5821882
+    ],
+    "title": {
+      "en": "Oratório",
+      "pt": "Estação Oratório"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.SLU",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5446792,
+      -23.5889601
+    ],
+    "title": {
+      "en": "São Lucas",
+      "pt": "Estação São Lucas"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.CDD",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5376299,
+      -23.5955603
+    ],
+    "title": {
+      "en": "Camilo Haddad",
+      "pt": "Estação Camilo Haddad"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.VTL",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5273473,
+      -23.6008174
+    ],
+    "title": {
+      "en": "Vila Tolstói",
+      "pt": "Estação Vila Tolstói"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.VUN",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5151597,
+      -23.6030614
+    ],
+    "title": {
+      "en": "Vila União",
+      "pt": "Estação Vila União",
+      "pt-Wiki": "Estação Vila União (Metrô de São Paulo)"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.JPL",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5074422,
+      -23.6068929
+    ],
+    "title": {
+      "en": "Jardim Planalto",
+      "pt": "Estação Jardim Planalto"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.SAP",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.5003675,
+      -23.6146765
+    ],
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Estação_Sapopemba.jpg/128px-Estação_Sapopemba.jpg",
+    "title": {
+      "en": "Sapopemba",
+      "pt": "Estação Sapopemba",
+      "pt-Wiki": "Terminal Intermodal Sapopemba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.FJT",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.4870946,
+      -23.6115373
+    ],
+    "title": {
+      "en": "Fazenda da Juta",
+      "pt": "Estação Fazenda da Juta"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.MAT",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.4772598,
+      -23.6124126
+    ],
+    "title": {
+      "en": "São Mateus",
+      "pt": "Estação São Mateus"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "Metro.Line15.IGT",
+    "railway": "Metro.Line15",
+    "coord": [
+      -46.4690134,
+      -23.599262
+    ],
+    "title": {
+      "en": "Jardim Colonial",
+      "pt": "Estação Jardim Colonial"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

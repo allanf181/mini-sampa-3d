@@ -12,5 +12,12 @@
       "en": "Rail",
       "pt": "Trem"
     }
+  },
+  {
+    "id": "SP.Mono",
+    "title": {
+      "en": "Monorail",
+      "pt": "Monotrilho"
+    }
   }
 ]

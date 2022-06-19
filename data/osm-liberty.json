@@ -220,6 +220,81 @@
                 -23.7432693
               ]
             }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Jardim Planalto",
+              "name_pt": "Estação Jardim Planalto",
+              "name_local": "Jardim Planalto"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.5076654,
+                -23.6065204
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Sapopemba",
+              "name_pt": "Estação Sapopemba",
+              "name_local": "Sapopemba"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.5008120,
+                -23.6146912
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Fazenda da Juta",
+              "name_pt": "Estação Fazenda da Juta",
+              "name_local": "Fazenda da Juta"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.4874462,
+                -23.6117994
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "São Mateus",
+              "name_pt": "Estação São Mateus",
+              "name_local": "São Mateus"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.4773470,
+                -23.6122916
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Jardim Colonial",
+              "name_pt": "Estação Jardim Colonial",
+              "name_local": "Jardim Colonial"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -46.4690622,
+                -23.5991845
+              ]
+            }
           }
         ]
       }

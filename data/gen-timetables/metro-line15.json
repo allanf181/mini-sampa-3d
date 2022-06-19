@@ -1,0 +1,87 @@
+{
+  "railway": "Metro.Line15",
+  "type": "SP.Mono",
+  "operator": "SP.CMSP",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "Metro.Line15.VPM",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line15.ORT",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line15.SLU",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line15.CDD",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line15.VTL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line15.VUN",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line15.JPL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line15.SAP",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "Metro.Line15.FJT",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "Metro.Line15.MAT",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "Metro.Line15.IGT",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "Metro.Line15.IGT",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "23:59",
+            "interval": 15
+          }
+        ]
+      },
+      {
+        "to": "Metro.Line15.VPM",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "23:59",
+            "interval": 15
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}
