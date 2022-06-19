@@ -1,0 +1,77 @@
+{
+  "railway": "CPTM.Line13",
+  "type": "SP.Rail",
+  "operator": "SP.CPTM",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "CPTM.Line13.EGO",
+      "nextIn": 10
+    },
+    {
+      "previousIn": 10,
+      "station": "CPTM.Line13.GCE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line13.AGU",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "CPTM.Line13.AGU",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "08:59",
+            "interval": 20
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 30
+          },
+          {
+            "from": "17:00",
+            "to": "20:59",
+            "interval": 20
+          },
+          {
+            "from": "21:00",
+            "to": "23:59",
+            "interval": 30
+          }
+        ]
+      },
+      {
+        "to": "CPTM.Line13.EGO",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "08:59",
+            "interval": 20
+          },
+          {
+            "from": "09:00",
+            "to": "16:59",
+            "interval": 30
+          },
+          {
+            "from": "17:00",
+            "to": "20:59",
+            "interval": 20
+          },
+          {
+            "from": "21:00",
+            "to": "23:59",
+            "interval": 30
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

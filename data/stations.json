@@ -2625,5 +2625,47 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "CPTM.Line13.EGO",
+    "railway": "CPTM.Line13",
+    "coord": [
+      -46.5199683,
+      -23.4979928
+    ],
+    "title": {
+      "en": "Engenheiro Goulart",
+      "pt": "Estação Engenheiro Goulart"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line13.GCE",
+    "railway": "CPTM.Line13",
+    "coord": [
+      -46.4937659,
+      -23.4475592
+    ],
+    "title": {
+      "en": "Guarulhos-Cecap",
+      "pt": "Estação Guarulhos-Cecap"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line13.AGU",
+    "railway": "CPTM.Line13",
+    "coord": [
+      -46.493762,
+      -23.4326749
+    ],
+    "title": {
+      "en": "Aeroporto–Guarulhos",
+      "pt": "Estação Aeroporto–Guarulhos"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

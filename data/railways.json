@@ -327,5 +327,21 @@
     "altitude": 0,
     "color": "#1C146B",
     "carComposition": 8
+  },
+  {
+    "id": "CPTM.Line13",
+    "title": {
+      "en": "Line 13 (Jade)",
+      "pt": "Linha 13-Jade"
+    },
+    "stations": [
+      "CPTM.Line13.EGO",
+      "CPTM.Line13.GCE",
+      "CPTM.Line13.AGU"
+    ],
+    "ascending": "SP.AGU",
+    "altitude": 0,
+    "color": "#2CA05A",
+    "carComposition": 8
   }
 ]
