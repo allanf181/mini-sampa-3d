@@ -1,0 +1,137 @@
+{
+  "railway": "CPTM.Line12",
+  "type": "SP.Rail",
+  "operator": "SP.CPTM",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "CPTM.Line12.BAS",
+      "nextIn": 6
+    },
+    {
+      "previousIn": 6,
+      "station": "CPTM.Line12.TAT",
+      "nextIn": 14
+    },
+    {
+      "previousIn": 14,
+      "station": "CPTM.Line12.EGO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.USL",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.ERM",
+      "nextIn": 7
+    },
+    {
+      "previousIn": 7,
+      "station": "CPTM.Line12.SMP",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.JHE",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.ITI",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.JRO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line12.EMF",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line12.IQC",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line12.ARC",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line12.CVN",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "CPTM.Line12.CVN",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 12
+          },
+          {
+            "from": "05:00",
+            "to": "08:59",
+            "interval": 6
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 8
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 6
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      },
+      {
+        "to": "CPTM.Line12.BAS",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 12
+          },
+          {
+            "from": "05:00",
+            "to": "08:59",
+            "interval": 6
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 8
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 6
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 10
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

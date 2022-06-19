@@ -60,7 +60,8 @@
     [
       "CPTM.Line7.BAS",
       "CPTM.Line10.BAS",
-      "CPTM.Line11.BAS"
+      "CPTM.Line11.BAS",
+      "CPTM.Line12.BAS"
     ]
   ],
   [
@@ -107,13 +108,20 @@
   [
     [
       "Metro.Line3.TAT",
-      "CPTM.Line11.TAT"
+      "CPTM.Line11.TAT",
+      "CPTM.Line12.TAT"
     ]
   ],
   [
     [
       "Metro.Line3.ITQ",
       "CPTM.Line11.ITQ"
+    ]
+  ],
+  [
+    [
+      "CPTM.Line11.CVN",
+      "CPTM.Line12.CVN"
     ]
   ]
 ]

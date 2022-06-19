@@ -2443,5 +2443,187 @@
     },
     "exit": [],
     "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.BAS",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.616094,
+      -23.5451723
+    ],
+    "title": {
+      "en": "Brás",
+      "pt": "Estação Brás"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.TAT",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.5765739,
+      -23.5400222
+    ],
+    "title": {
+      "en": "Tatuapé",
+      "pt": "Estação Tatuapé"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.EGO",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.5198013,
+      -23.4981404
+    ],
+    "title": {
+      "en": "Engenheiro Goulart",
+      "pt": "Estação Engenheiro Goulart"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.USL",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.4997763,
+      -23.485431
+    ],
+    "title": {
+      "en": "USP Leste",
+      "pt": "Estação USP Leste"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.ERM",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.4823191,
+      -23.4850671
+    ],
+    "title": {
+      "en": "Comendador Ermelino",
+      "pt": "Estação Comendador Ermelino"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.SMP",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.4436724,
+      -23.4905791
+    ],
+    "title": {
+      "en": "São Miguel Paulista",
+      "pt": "Estação São Miguel Paulista"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.JHE",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.4216511,
+      -23.4926285
+    ],
+    "title": {
+      "en": "Jardim Helena-Vila Mara",
+      "pt": "Estação Jardim Helena-Vila Mara"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.ITI",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.40217,
+      -23.493936
+    ],
+    "title": {
+      "en": "Itaim Paulista",
+      "pt": "Estação Itaim Paulista"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.JRO",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.3857243,
+      -23.4849461
+    ],
+    "title": {
+      "en": "Jardim Romano",
+      "pt": "Estação Jardim Romano"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.EMF",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.367713,
+      -23.4792403
+    ],
+    "title": {
+      "en": "Engenheiro Manoel Feio",
+      "pt": "Estação Engenheiro Manoel Feio"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.IQC",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.3479203,
+      -23.4860636
+    ],
+    "title": {
+      "en": "Itaquaquecetuba",
+      "pt": "Estação Itaquaquecetuba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.ARC",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.3390896,
+      -23.5000867
+    ],
+    "title": {
+      "en": "Aracaré",
+      "pt": "Estação Aracaré"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line12.CVN",
+    "railway": "CPTM.Line12",
+    "coord": [
+      -46.3325848,
+      -23.5254345
+    ],
+    "title": {
+      "en": "Calmon Viana",
+      "pt": "Estação Calmon Viana"
+    },
+    "exit": [],
+    "altitude": 0
   }
 ]

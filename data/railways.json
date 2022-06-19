@@ -301,5 +301,31 @@
     "altitude": 0,
     "color": "#FF7F50",
     "carComposition": 8
+  },
+  {
+    "id": "CPTM.Line12",
+    "title": {
+      "en": "Line 12 (Sapphire)",
+      "pt": "Linha 12-Safira"
+    },
+    "stations": [
+      "CPTM.Line12.BAS",
+      "CPTM.Line12.TAT",
+      "CPTM.Line12.EGO",
+      "CPTM.Line12.USL",
+      "CPTM.Line12.ERM",
+      "CPTM.Line12.SMP",
+      "CPTM.Line12.JHE",
+      "CPTM.Line12.ITI",
+      "CPTM.Line12.JRO",
+      "CPTM.Line12.EMF",
+      "CPTM.Line12.IQC",
+      "CPTM.Line12.ARC",
+      "CPTM.Line12.CVN"
+    ],
+    "ascending": "SP.CVN",
+    "altitude": 0,
+    "color": "#1C146B",
+    "carComposition": 8
   }
 ]
