@@ -2,7 +2,7 @@
 
 A real-time 3D digital map of São Paulo's public transport system.
 
-![Screenshot](https://mini.sampa.br/images/img.png)
+![Screenshot](https://mini.sampa.br/images/screenshot.png)
 
 See a [Live Demo](https://mini.sampa.br).
 
