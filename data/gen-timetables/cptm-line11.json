@@ -1,0 +1,152 @@
+{
+  "railway": "CPTM.Line11",
+  "type": "SP.Rail",
+  "operator": "SP.CPTM",
+  "stations": [
+    {
+      "previousIn": 0,
+      "station": "CPTM.Line11.LUZ",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.BAS",
+      "nextIn": 6
+    },
+    {
+      "previousIn": 6,
+      "station": "CPTM.Line11.TAT",
+      "nextIn": 12
+    },
+    {
+      "previousIn": 12,
+      "station": "CPTM.Line11.ITQ",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.DBO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line11.JBO",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line11.GUA",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.AGN",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.FVC",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.POA",
+      "nextIn": 2
+    },
+    {
+      "previousIn": 2,
+      "station": "CPTM.Line11.CVN",
+      "nextIn": 4
+    },
+    {
+      "previousIn": 4,
+      "station": "CPTM.Line11.SUZ",
+      "nextIn": 7
+    },
+    {
+      "previousIn": 7,
+      "station": "CPTM.Line11.JPB",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "CPTM.Line11.BCB",
+      "nextIn": 5
+    },
+    {
+      "previousIn": 5,
+      "station": "CPTM.Line11.MDC",
+      "nextIn": 3
+    },
+    {
+      "previousIn": 3,
+      "station": "CPTM.Line11.EST",
+      "nextIn": 0
+    }
+  ],
+  "exitTimes": {
+    "Weekday": [
+      {
+        "to": "CPTM.Line11.EST",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 8
+          },
+          {
+            "from": "05:00",
+            "to": "08:59",
+            "interval": 4
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 7
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 4
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 8
+          }
+        ]
+      },
+      {
+        "to": "CPTM.Line11.LUZ",
+        "times": [
+          {
+            "from": "04:00",
+            "to": "04:59",
+            "interval": 8
+          },
+          {
+            "from": "05:00",
+            "to": "08:59",
+            "interval": 4
+          },
+          {
+            "from": "09:00",
+            "to": "15:59",
+            "interval": 7
+          },
+          {
+            "from": "16:00",
+            "to": "19:59",
+            "interval": 4
+          },
+          {
+            "from": "20:00",
+            "to": "23:59",
+            "interval": 8
+          }
+        ]
+      }
+    ],
+    "SaturdayHoliday": "Weekday"
+  }
+}

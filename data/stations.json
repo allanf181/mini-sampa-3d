@@ -208,8 +208,8 @@
       -23.5370674
     ],
     "title": {
-      "en": "Luz",
-      "pt": "Estação Luz"
+      "en": "Luz Station",
+      "pt": "Estação da Luz"
     },
     "exit": [],
     "altitude": -1
@@ -932,8 +932,8 @@
       -23.536244
     ],
     "title": {
-      "en": "Luz",
-      "pt": "Estação Luz"
+      "en": "Luz Station",
+      "pt": "Estação da Luz"
     },
     "exit": [],
     "altitude": -1
@@ -1198,8 +1198,8 @@
       -23.5350961
     ],
     "title": {
-      "en": "Luz",
-      "pt": "Estação Luz"
+      "en": "Luz Station",
+      "pt": "Estação da Luz"
     },
     "exit": [],
     "altitude": 0
@@ -2216,6 +2216,230 @@
     "title": {
       "en": "Rio Grande da Serra",
       "pt": "Estação Rio Grande da Serra"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.LUZ",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.6349009,
+      -23.5351517
+    ],
+    "title": {
+      "en": "Luz Station",
+      "pt": "Estação da Luz"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.BAS",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.6163092,
+      -23.5453006
+    ],
+    "title": {
+      "en": "Brás",
+      "pt": "Estação Brás"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.TAT",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.576536,
+      -23.5401804
+    ],
+    "title": {
+      "en": "Tatuapé",
+      "pt": "Estação Tatuapé"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.ITQ",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.4711579,
+      -23.5419309
+    ],
+    "title": {
+      "en": "Corinthians-Itaquera",
+      "pt": "Estação Corinthians-Itaquera"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.DBO",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.4475594,
+      -23.5417738
+    ],
+    "title": {
+      "en": "Dom Bosco",
+      "pt": "Estação Dom Bosco"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.JBO",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.4309519,
+      -23.5388966
+    ],
+    "title": {
+      "en": "José Bonifácio",
+      "pt": "Estação José Bonifácio"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.GUA",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.4154873,
+      -23.5422281
+    ],
+    "title": {
+      "en": "Guaianases",
+      "pt": "Estação Guaianases"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.AGN",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.3836812,
+      -23.5543583
+    ],
+    "title": {
+      "en": "Antônio Gianetti Neto",
+      "pt": "Estação Antônio Gianetti Neto"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.FVC",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.3679735,
+      -23.5404422
+    ],
+    "title": {
+      "en": "Ferraz de Vasconcelos",
+      "pt": "Estação Ferraz de Vasconcelos"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.POA",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.3436452,
+      -23.5254883
+    ],
+    "title": {
+      "en": "Poá",
+      "pt": "Estação Poá"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.CVN",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.3326754,
+      -23.5255342
+    ],
+    "title": {
+      "en": "Calmon Viana",
+      "pt": "Estação Calmon Viana"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.SUZ",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.3071823,
+      -23.5343425
+    ],
+    "title": {
+      "en": "Suzano",
+      "pt": "Estação Suzano"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.JPB",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.258168,
+      -23.5427255
+    ],
+    "title": {
+      "en": "Jundiapeba",
+      "pt": "Estação Jundiapeba"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.BCB",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.2252488,
+      -23.5362974
+    ],
+    "title": {
+      "en": "Braz Cubas",
+      "pt": "Estação Braz Cubas"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.MDC",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.1978384,
+      -23.521479
+    ],
+    "title": {
+      "en": "Mogi das Cruzes",
+      "pt": "Estação Mogi das Cruzes"
+    },
+    "exit": [],
+    "altitude": 0
+  },
+  {
+    "id": "CPTM.Line11.EST",
+    "railway": "CPTM.Line11",
+    "coord": [
+      -46.1852307,
+      -23.5157616
+    ],
+    "title": {
+      "en": "Estudantes",
+      "pt": "Estação Estudantes"
     },
     "exit": [],
     "altitude": 0

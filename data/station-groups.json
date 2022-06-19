@@ -23,7 +23,8 @@
       "ViaQuatro.Line4.LUZ"
     ],
     [
-      "CPTM.Line7.LUZ"
+      "CPTM.Line7.LUZ",
+      "CPTM.Line11.LUZ"
     ]
   ],
   [
@@ -58,7 +59,8 @@
     ],
     [
       "CPTM.Line7.BAS",
-      "CPTM.Line10.BAS"
+      "CPTM.Line10.BAS",
+      "CPTM.Line11.BAS"
     ]
   ],
   [
@@ -100,6 +102,18 @@
     [
       "Metro.Line2.TTI",
       "CPTM.Line10.TMD"
+    ]
+  ],
+  [
+    [
+      "Metro.Line3.TAT",
+      "CPTM.Line11.TAT"
+    ]
+  ],
+  [
+    [
+      "Metro.Line3.ITQ",
+      "CPTM.Line11.ITQ"
     ]
   ]
 ]

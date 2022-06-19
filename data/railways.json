@@ -272,5 +272,34 @@
     "altitude": 0,
     "color": "#00CED1",
     "carComposition": 8
+  },
+  {
+    "id": "CPTM.Line11",
+    "title": {
+      "en": "Line 11 (Coral)",
+      "pt": "Linha 11-Coral"
+    },
+    "stations": [
+      "CPTM.Line11.LUZ",
+      "CPTM.Line11.BAS",
+      "CPTM.Line11.TAT",
+      "CPTM.Line11.ITQ",
+      "CPTM.Line11.DBO",
+      "CPTM.Line11.JBO",
+      "CPTM.Line11.GUA",
+      "CPTM.Line11.AGN",
+      "CPTM.Line11.FVC",
+      "CPTM.Line11.POA",
+      "CPTM.Line11.CVN",
+      "CPTM.Line11.SUZ",
+      "CPTM.Line11.JPB",
+      "CPTM.Line11.BCB",
+      "CPTM.Line11.MDC",
+      "CPTM.Line11.EST"
+    ],
+    "ascending": "SP.EST",
+    "altitude": 0,
+    "color": "#FF7F50",
+    "carComposition": 8
   }
 ]
