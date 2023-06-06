@@ -16,7 +16,7 @@
     "postcss-import": "^14.1.0",
     "postcss-inline-svg": "^5.0.0",
     "sass": "^1.52.2",
-    "vite": "^2.9.13",
+    "vite": "^2.9.16",
     "vite-plugin-replace": "^0.1.1"
   },
   "dependencies": {
